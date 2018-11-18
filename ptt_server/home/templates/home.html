@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PTTonitor</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static "home_page/vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="{% static "home_page/css/freelancer.min.css" %}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{% static "home_page/vendor/font-awesome/css/font-awesome.min.css" %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">PTTonitor</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Start</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    {% load static %}
+    <!-- Header -->
+    <header style="background-color:#383838;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="{% static "home_page/img/profile.png" %}" alt="">
+                    <div class="intro-text">
+                        <span class="name">PTTonitor</span>
+                        <span class="skills">Watching &nbsp; You</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    {% load static %}
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" style="background-color:#dddddd;"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Start</h2>
+                    <br><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="/query" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{% static "home_page/img/portfolio/query.png" %}" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="/keywords" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{% static "home_page/img/portfolio/chart.png" %}" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{% static "home_page/img/portfolio/contact.png" %}" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about" style="background-color:#383838;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <br><br><br>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>全名批踢踢實業坊，簡稱Ptt，為台灣影響力數一數二的網路社群，擁有超過2萬個分類看板，註冊帳號高達150萬，是台灣原創網路文化的誕生地。曾經有市長候選人的幕僚成立PTT官方帳號，為了要和選民更加貼近，最後反被鄉民起底，爆發多重分身帳號的疑雲；進幾年的重大社會事件，如洪仲丘案、太陽花學運等，更是讓Ptt單日上線人次突破千萬。然而，其中這些帳號，真的都是鄉民的心聲嗎？又或者只是為了帶起輿論風向、為了發文洗版進而稀釋重大新聞事件，而產生的假帳號呢？</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>本專題的目的為建立一個Ptt使用者帳號查詢之平台，透過帳號上站位址、活動時問、發文用詞、使用者問互動等分析過程，將對應之使用者關係網路與使用者相關資訊，以視覺化圖形呈現，圖形中的節點或鏈結，也提供互動式的資料索引方式。<br>同時提供主題關鍵字排名，使用者可以選定特定時間區間及不同主題分類的關鍵字，查看該時間區間之關鍵字統計結果。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center" id="footer">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Author</h3>
+                        <p>Chien Cheng Lin
+                            <br>NCKU, Department of CSIE
+                            <br>bightm80144@gmail.com</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100000091738792" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ChienChengLin" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About PTTonitor</h3>
+                        <p><a href="/home">PTTonitor</a> is created for NCKU CSIE final project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; PTTonitor 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    {% load static %}
+    <!-- jQuery -->
+    <script src="{% static "home_page/vendor/jquery/jquery.min.js" %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static "home_page/vendor/bootstrap/js/bootstrap.min.js" %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="{% static "home_page/js/jqBootstrapValidation.js" %}"></script>
+    <script src="{% static "home_page/js/contact_me.js" %}"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="{% static "home_page/js/freelancer.min.js" %}"></script>
+
+</body>
+
+</html>

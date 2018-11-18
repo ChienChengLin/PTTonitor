@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "group": 1, 
+      "name": "GNZ48"
+    }, 
+    {
+      "group": 1, 
+      "name": "SNH48"
+    }, 
+    {
+      "group": 1, 
+      "name": "BEJ48"
+    }, 
+    {
+      "group": 1, 
+      "name": "HiranoMiu"
+    }, 
+    {
+      "group": 1, 
+      "name": "changnick502"
+    }, 
+    {
+      "group": 1, 
+      "name": "allgamba"
+    }
+  ], 
+  "links": [
+    {
+      "target": 1, 
+      "width": 0.3051, 
+      "value": 0, 
+      "source": 0, 
+      "comment_rate": 0.0, 
+      "fan_comment": 0, 
+      "total_comment": 0
+    }, 
+    {
+      "target": 3, 
+      "width": 0.5076, 
+      "value": 0, 
+      "source": 0, 
+      "comment_rate": 0.0, 
+      "fan_comment": 0, 
+      "total_comment": 0
+    }, 
+    {
+      "target": 5, 
+      "width": 0.2828, 
+      "value": 0, 
+      "source": 0, 
+      "comment_rate": 0.0, 
+      "fan_comment": 0, 
+      "total_comment": 0
+    }, 
+    {
+      "target": 4, 
+      "width": 0.0, 
+      "value": 1, 
+      "source": 1, 
+      "comment_rate": 0.0, 
+      "fan_comment": 0, 
+      "total_comment": 0
+    }, 
+    {
+      "target": 3, 
+      "width": 0.1359, 
+      "value": 0, 
+      "source": 2, 
+      "comment_rate": 0.0, 
+      "fan_comment": 0, 
+      "total_comment": 0
+    }, 
+    {
+      "target": 5, 
+      "width": 0.3597, 
+      "value": 0, 
+      "source": 3, 
+      "comment_rate": 0.0, 
+      "fan_comment": 0, 
+      "total_comment": 0
+    }, 
+    {
+      "target": 5, 
+      "width": 0.1799, 
+      "value": 1, 
+      "source": 1, 
+      "comment_rate": 0.0, 
+      "fan_comment": 0, 
+      "total_comment": 0
+    }, 
+    {
+      "target": 5, 
+      "width": 0.0, 
+      "value": 1, 
+      "source": 4, 
+      "comment_rate": 0.0, 
+      "fan_comment": 0, 
+      "total_comment": 0
+    }, 
+    {
+      "target": 1, 
+      "width": 0.4609, 
+      "value": 0, 
+      "source": 3, 
+      "comment_rate": 0.0005, 
+      "fan_comment": 1, 
+      "total_comment": 1930
+    }
+  ]
+}

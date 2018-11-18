@@ -1,0 +1,7362 @@
+[
+  {
+    "value": 1.0, 
+    "key": "\u79ae\u8c8c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e7b\u89ba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u514d\u75ab"
+  }, 
+  {
+    "value": 0.0, 
+    "key": "\u9a55\u50b2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ab0\u7406"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6e05\u6f54\u968a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f88\u6cb9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cc7\u52d5\u90e8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u64bf\u5c4d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6821\u5712"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u73fe\u884c"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6efe\u51fa\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72af\u932f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u6f8e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u5957"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u7f70\u7403\u7dda"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c3c\u59d1"
+  }, 
+  {
+    "value": 100.0, 
+    "key": "\u7d14\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u897f\u85cf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7f75\u7f75"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u771f\u721b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8981\u7acb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b78\u7cfb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u8fa6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u59d0\u59d0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6eec\u7965"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d88\u9632"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4e0d\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5834\u5730"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d66\u5206"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6e05\u6709"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u8ac7"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u9b3c\u8a71"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7e73\u4e0d\u8d77"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u592a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f86\u4e0d\u53ca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u798d\u5bb3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u89e3\u6c7a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7b2c\u4e5d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u67ef\u9ed1"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u6587\u5c31"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7c89\u7d05\u8272"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b66\u5c40"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90ed\u6b63\u4eae"
+  }, 
+  {
+    "value": 7.0, 
+    "key": "\u641e\u6e05\u695a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f9e\u4f86\u6c92"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54e1\u8b66"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bb6\u98a8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "hmt17"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u7576\u4f60\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6a39\u5e79"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5716\u52d2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4ee3\u8cfc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7981\u6b62"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "WHA"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5435\u6b7b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ea5\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6392\u7206"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u904a\u8569"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8981\u5b78"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u958b\u5c0f\u9ec3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u8a02"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u8981\u4f60\u7ba1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d93\u8cbf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6211\u59b9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4eba\u4ee5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8056\u9a0e\u58eb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u91cd\u756b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u88f8\u7167"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516c\u6c11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6de1\u6c34\u6cb3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d3b\u904e\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4efb\u52d9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52de\u529b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50b5\u7559"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u5206\u9418"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8089\u9ad4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d66\u9322"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6587\u7d44"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7d04\u5b9a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u98a8\u666f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81fa\u96fb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u55c6\u5920"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "end"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6efe\u56de"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u793e\u6703\u5c40"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ad4\u8ad2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7559\u5b78"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8edf\u571f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a5b\u5492"
+  }, 
+  {
+    "value": 29.0, 
+    "key": "\u88dc\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9023\u7d61"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "lag"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52de\u52d5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8de8\u5e74"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u963f\u662f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e56\u4e56"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u780d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9aa8\u6c23"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6562\u5e79"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u7136\u6cd5\u5247"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5716\u5229"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c41\u8a71"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "689"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5984\u60f3\u75c7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6b7b\u5149"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5feb\u6efe"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u9019\u4e5f\u80fd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6697\u6200"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8700\u570b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u554f\u4f60\u662f"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u516c\u4f48"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d44\u88dd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u597d\u6015"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5ba3\u5e03"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u721b\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u51a0\u8ecd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0b\u9650"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76e3\u5bdf\u9662"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9b54\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9732\u51fa\u99ac\u8173"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "they"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6539\u9032"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5225\u81ea\u4ee5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cbf\u6613"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u5bb6\u5bb6\u9152"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5609\u7fa9\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5730\u50f9\u7a05"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56db\u6557"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0b\u96e8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u51ac\u7c89"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516c\u4fdd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5230\u5834"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5916\u7c4d\u4eba\u58eb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u600e\u4e0d\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7206\u5c3f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5408\u6cd5\u5316"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "AHQ"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u69a8\u7518\u8517"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ddf\u7d66"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d66\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6f14\u6280"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u82ad\u6a02"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e6b\u8f49"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9806\u624b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0a\u5b78"
+  }, 
+  {
+    "value": 7.0, 
+    "key": "\u5653\u6587\u6551"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u514d\u8077"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u770b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u806f\u5408\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u60f3\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6dea\u843d"
+  }, 
+  {
+    "value": 8.0, 
+    "key": "\u516c\u4e09\u5c0f"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u9084\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6279\u9b25"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u66b4\u6c11"
+  }, 
+  {
+    "value": 9.0, 
+    "key": "\u653e\u5728"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u91cc\u9577"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u751f\u5b8c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cb8\u6b3e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u661f\u7c89"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "10n"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6307\u63ee\u90e8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u600e\u4e0d\u8aaa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8070\u660e\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ec3\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5077\u6e21\u5ba2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7db2\u641c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u6d77"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6aa2\u9a57"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u610f\u8b58"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6de1\u6c5f"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u9020\u8b20"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u61c2\u5f97"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u6de1\u6c34"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8087\u4e8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ee8\u71df"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c23\u7bc0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u8349\u7a3f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8c50\u539f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65b0\u767c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f4e\u7d1a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7ffb\u6848"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7121\u4f5c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6050\u9f8d"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u570b\u8ce0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4eba\u8eab\u653b\u64ca"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4e82\u6e90"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c71\u838a"
+  }, 
+  {
+    "value": 16.0, 
+    "key": "\u5ee2\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f9d\u6cd5\u884c\u653f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u585e\u9032"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9d3f\u5b50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7ae5\u88dd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8303\u5efa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516c\u544a\u5730\u50f9"
+  }, 
+  {
+    "value": 24.0, 
+    "key": "\u4e0d\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u559c\u5e16"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u9a19"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u552f\u6709"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e09\u5206\u9418"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5171\u8adc"
+  }, 
+  {
+    "value": 7.0, 
+    "key": "\u7db2\u5740"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5287\u540d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u919c\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u7528\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5718\u8cbb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "startwinkle"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f69\u670d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ab0\u77e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u518d\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4ea1\u570b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8f49\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e09\u7ad9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u721b\u6897"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5225\u602a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8003\u53e4\u984c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u932f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7ffb\u81c9\u4e0d\u8a8d\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81c9\u6d3b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u770b\u4e09\u6a13"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c96\u7e69"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u9a19\u9322"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5de5\u6642"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ad4\u4f4d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u62ff\u570b"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u81ed\u80a5\u5b85"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d44\u4e86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6562\u5beb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7684\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6838\u96fb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6536\u5272"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e79\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7092\u4f5c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5169\u968a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52e2\u529b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90dd\u9f8d\u658c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u843d\u8cfd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4ed6\u958b"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u4e0d\u7169"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5200\u528d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8eca\u4f4d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u653e\u70ae"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8c6a\u6c23"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f5c\u5bb6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e95\u86d9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56b4\u5bb6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7f8e\u98df\u5bb6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u7063\u7576"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u68ee\u65e5"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u767c\u98c6"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u6c92\u8b8a"
+  }, 
+  {
+    "value": 11.0, 
+    "key": "\u6efe\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53e3\u9023"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c31\u8b80"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7da0\u5431"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8f49\u884c"
+  }, 
+  {
+    "value": 10.0, 
+    "key": "\u6c6a\u6c6a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7576\u7238"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u919c\u7537"
+  }, 
+  {
+    "value": 83.0, 
+    "key": "\u7d66\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u780d\u4e0b\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767d\u721b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5976\u6614"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6176\u5fe0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5616\u5616"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5c41\u4e8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "258"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u99ac\u8d85"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a7f\u8863\u670d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5931\u6548"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6700\u901f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "1.1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u721b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7fd2\u662f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u8f29"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8521\u4f9d\u6797"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7a7a\u5fc3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65e9\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u88dc\u52a9"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u65fa\u4e2d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e4b\u6065"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7591\u4f3c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "CD"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56db\u6280"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8acb\u52ff"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u717d\u98a8\u9ede\u706b"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u96f7\u5c41"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b6c\u7a2e"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u76f4\u8aaa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96e2\u8b5c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b1b\u6211"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u610f\u6deb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u5e73"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u8ab2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "ip"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6709\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u592a\u9577"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u8a5e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76e3\u807d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u6bd2"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u4f9b\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63a8\u7d66"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5b78\u59ca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7248\u597d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u79cb\u610f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5efa\u8a2d\u6027"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c42\u540c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u592a\u59d4\u5c48"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u4fee\u6cd5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "Hanbor"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7da0\u755c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bb6\u5c6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90e8\u9577"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b78\u59b9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0a\u5c4b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u4ee5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u958b\u623f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u77f3\u5167\u535c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ad\u5026"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b78\u4e94\u6a13"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u6148\u60b2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96e3\u8003"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u81ea\u4ecb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56de\u5abd\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6558\u8ff0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u570b\u8a9e"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u4f60\u9023"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6e96\u6642"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7d0d\u7a05\u9322"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u5c45\u6b63\u5ee3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63a8\u5ee3"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u64bf\u8d77\u4f86"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u6709\u75c5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540c\u6b78\u65bc\u76e1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f37\u62c6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50bb\u5b50"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4f5c\u5922"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u75db\u82e6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c3e\u690e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u975e\u6d32\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5225\u626f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7cde\u4f5c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u674e\u5764"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5317\u8eca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u611b\u5fc3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7248\u9762"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6efe\u56de\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f37\u62bc"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u67e5\u8cc7\u6599"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u786c\u642d"
+  }, 
+  {
+    "value": 7.0, 
+    "key": "\u8166\u88dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b1b\u51fa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76ee\u7530"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5be6\u884c"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5f12\u7236"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8303\u51b0\u51b0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u660e\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8fb2\u5834"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u5f97\u5df2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u9084"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u8cab"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5be6\u9a57\u5ba4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u86cb\u6d17"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "426"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u666e\u6709"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96ea\u8afe"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5de6\u53f3\u624b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a0b\u5ea6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6436\u5feb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6b63\u4e8b"
+  }, 
+  {
+    "value": 9.0, 
+    "key": "\u5206\u985e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u7063\u570b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90fd\u7d66"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7537\u540c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u91ce"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e79\u52d2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u591a\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d66\u4f60\u770b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9867\u5ba2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ed\u5b85"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9670\u9053"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5c0d\u8cea"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u73a9\u81a9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6bcf\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5408\u7d04"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ad8\u85aa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u88dd\u6587\u9752"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b8c\u9084"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "ISIS"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a2e\u65cf\u6b67\u8996"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "NBA"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4eba\u68ee"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5272\u8b93"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u696d\u914d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5538\u66f8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "228"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u75be\u82e6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7db2\u53cb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5361\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5716\u54a7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5169\u9593"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5984\u60f3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72c2\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7406\u8ca1\u5c08\u5bb6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d85\u8eca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4eba\u683c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6587\u7b46"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5730\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a79\u59c6\u58eb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "ni"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u6c92\u6897"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u7e73"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54ea\u9593"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9802\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u83ef\u4eba\u6c11\u5171\u548c\u570b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9f3b\u5c4e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u738b\u80b2\u654f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52d5\u80fd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54ed\u5c41"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53c3\u8a2a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4fca\u8f14"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6bd4\u99ac"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u689d\u8d70"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65c5\u65e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u611b\u5e79"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6ef7\u86cb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u71fb\u96de"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6280\u8077"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "5kg"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767c\u5b8c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u672a\u6eff"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u6642"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9003\u7968"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e5f\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e73\u65b9\u516c\u5c3a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aa0\u5fc3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6b21\u5143\u5200"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ee8\u59d4\u66f8\u8a18"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u901a\u77e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u500b\u7248"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7121\u640d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7406\u8ca1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u963f\u4fca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u59d4\u5c48"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u4fae\u8fb1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u670d\u52d9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5403\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7f77\u5de5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767c\u5427"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c31\u6703"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d30\u83cc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5ba3\u544a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u61a4\u4e16\u5ac9\u4fd7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5275\u696d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u9178"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "diu"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u7d93\u6587"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u518d\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5165\u7f6a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72d7\u5c4e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5916\u914d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5147\u5b85"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5438\u963f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bc4\u7ad9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96fb\u68af"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6aa2\u51fa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81e5\u8ecc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u6a13"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u919c\u5973"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9023\u5403"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f35\u81f4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8fa3\u689d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5152\u7ae5\u7bc0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cbc\u5716"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ddf\u5718"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8336\u8449\u86cb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8868\u8ff0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "adoken"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u82b1\u6709"
+  }, 
+  {
+    "value": 14.0, 
+    "key": "\u9b3c\u626f"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u717d\u52d5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6158\u9ee8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u865f\u78bc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f4e\u968e"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u7a7f\u8457"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b0a\u8a71"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5168\u9ad4"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7269\u5316"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bf5\u8c6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6295\u4e86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6050\u540c"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u4e09\u767e\u842c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u58d3\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5ea6\u6578"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7ffb\u8239"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c42\u8b49"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "ipp"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u721b\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5653\u721b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e1f\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9678\u7c4d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53cd\u670d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767c\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e7b\u60f3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f48\u529b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f71\u8a55"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u885b\u661f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7c73\u7cd5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u95b1\u8b80"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4efb\u5167"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6240\u5f97"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e03\u4f11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u737b\u91d1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6148\u60b2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6574\u4e32"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c0d\u6297"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u8aaa\u770b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5145\u96fb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9c48\u9b5a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u6642"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4ea1\u4e2d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9738\u4e3b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7248\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9017\u6211"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0a\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u770b\u66f8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u518d\u8ac7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7570\u5df1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u591a\u7d66"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54ea\u7b97"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "Underwood"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u505a\u5922"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96fb\u8981"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5077\u6539"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "fps"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7d05\u7684"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6211\u5148"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53bb\u6b7b\u5427"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u8ce3\u4e56"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u721b\u6b7b"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u5df7\u53e3"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u8003\u4e0d\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540d\u7a31"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c0d\u6230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u74b0\u4fdd\u7f72"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5de5\u6bba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d2a\u7d20"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u50b3\u4eba"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4e00\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u6562"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ecd\u6cd5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u4eba\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u738b\u671d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "sf"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5146\u8c50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u61f2\u8655"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7684\u9084"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u5feb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u591a\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7238\u5abd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u51fa\u8d70"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u7c3d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u5fc5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ab2\u5fb5"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6feb\u7528"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72d7\u9ee8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "RD"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u64c1\u6838"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d77\u624b\u5f0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52a0\u85aa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90b1\u986f\u667a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e79\u5e79"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50b3\u9054"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ef\u4fe1\u5ea6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9032\u6876"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5168\u585e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a55\u8ad6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96fb\u6a5f"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u9589\u5634"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52de\u57fa\u6cd5"
+  }, 
+  {
+    "value": 9.0, 
+    "key": "\u6c59\u8fb1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6f5b\u529b\u80a1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u60e1\u641e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7537\u670b\u53cb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u51fa\u8def"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ee8\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b49\u5238"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6027\u4fb5\u72af"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u611b\u9322"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u95b1\u8b80\u969c\u7919"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u51fa\u8072"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "100p"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u628a\u95dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8001\u6bcd\u8c6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4fe1\u7fa9"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u88dd\u719f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6211\u723d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u514d\u5f79"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u55ae\u7368"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u570b\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u624d\u884c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54ea\u88e1\u8cb4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6562\u554f"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4e92\u63db"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ad6\u8ff0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9023\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u9aee"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7ffb\u81c9"
+  }, 
+  {
+    "value": 11.0, 
+    "key": "\u8a0e\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5169\u9805"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u83dc\u866b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9b25\u722d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f37\u8feb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u518d\u6876"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54ea\u5929"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5831\u6848"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5916\u52de"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7b11\u6b7b\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u9b3c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8001\u8def"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5653\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90fd\u9084"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9996\u9078"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5225\u6f14"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7b49\u63db"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4eba\u64e0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "ggrunrundela"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "x1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53e3\u5fb7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u653e\u98a8"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u83dc\u87f2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9589\u773c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4ec1\u6b66"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d2a\u5f97"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u75c5\u597d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8463\u5a18"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6cd5\u5247"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76f4\u64a5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5065\u5168"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u5408\u7406"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8fd1\u5e73"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u51fa\u8ce3"
+  }, 
+  {
+    "value": 8.0, 
+    "key": "GGrunrundela"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u5206\u4e0d\u6e05\u695a"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u80e1\u8a00\u4e82\u8a9e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7528\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u809b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5225\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ecd\u4e8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c04\u7cbe"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u611f\u53d7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6fb3\u6d32\u4eba"
+  }, 
+  {
+    "value": 9.0, 
+    "key": "\u518d\u88dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8569\u5a66"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6436\u529f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "MLB"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u6587"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u786c\u8981"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b9a\u5b87"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63a8\u932f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6700\u5ee2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ce5\u4e8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f6d\u5a49\u5982"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u67ef\u95e2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u89e3\u7d04"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6293\u6f0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a2e\u6efe"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8eab\u9ad4\u5065\u5eb7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "jizz"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u95dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u642d\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8981\u964d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5403\u82e6\u8010\u52de"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u80e1\u626f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72d7\u98df"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "ZZ"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6295\u6a5f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9577\u671f\u4ee5\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b78\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6587\u90fd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ad8\u4e2d\u751f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u4e82"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u767c\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6bd4\u723e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e2b\u5085"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6838\u5ee2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u79d1\u5b78"
+  }, 
+  {
+    "value": 35.0, 
+    "key": "\u6bcf\u65e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u786c\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52d5\u8b70"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c11\u8abf"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u6587\u9084"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9a19\u5b50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767d\u75f4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5169\u5e9c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7532\u677f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u5b57"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53eb\u677f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u60f3"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5bb6\u7522"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u95dc\u6211"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u79ae\u5100"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8907\u96dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516b\u6a13"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8c9e\u64cd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6eab\u67d4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u807d\u81a9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u5abd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81bd\u5b50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f88\u602a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bb6\u8b80"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "SMAP"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u751f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u6211\u611f\u89ba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u554f\u5427"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u67d0\u7fa4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7121\u80fd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52a0\u6301"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7389\u7c73\u7c92"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8eca\u79fb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6df7\u86cb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u592a\u5c11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53cd\u82d7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6f20\u8996"
+  }, 
+  {
+    "value": 20.0, 
+    "key": "\u72d7\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "color"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f4e\u5361"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u8001\u6bcd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7dad\u4ed6\u547d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u723d\u6b7b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50b3\u8072\u7b52"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u91cb\u61b2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9996\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u554f\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d17\u6fa1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7761\u83ca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b1d\u4e3b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6b3a\u9a19"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u898b\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u59d0\u982d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "50K"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5404\u7248"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "CAAC"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u99d5\u7f70"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5634\u50cf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8209\u4f8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ca0\u50b5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6158\u5b57"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52d5\u6a5f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9df9\u64ca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9078\u4e0d\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u796d\u6b62"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5653\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u66f8\u8b80"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7af9\u6559\u5927"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d71\u4e00\u5927\u696d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u7b11\u8a71"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5206\u5316"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6234\u7da0\u5e3d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u4e0d\u8d0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u5bb6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f35\u5b88\u4e00"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53e4\u8e5f"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u914d\u5957"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u98a8\u8a55"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "7777"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u904e\u52de"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0a\u500b\u6708"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u670d\u52d9\u4e2d\u5fc3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u541e"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u555f\u8499"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "IP"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5206\u5340"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u591a\u9918"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u8a34\u6c42"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "ID"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u6e2c\u8a66"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u5920\u4e86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u518d\u4e82"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "Ip"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6309\u9234"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u807d\u4e0d\u61c2"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u7206\u5366"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6a5f\u6a5f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u628a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6efe\u597d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7da0\u9ee8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5065\u6b65\u5982\u98db"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u7576\u98ef"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u98e2\u6e34"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u770b\u4e0d\u4e0b\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9f4a\u982d\u5f0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u5716"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u544a\u767d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5149\u74b0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u57f7\u8ff7\u4e0d\u609f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53bb\u885d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5728\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6709\u5dee"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u55aa\u5047"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8981\u547d"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u6416\u6efe"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5275\u4f5c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5076\u50cf\u5287"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u554f\u5366"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u505a\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8001\u6897"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5206\u50cf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a4d\u84c4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u97d3\u72d7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ed1\u58d3\u58d3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f55\u5fc5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7406\u8aed"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u812b\u6b50"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u9152\u99d5"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6211\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c08\u8cbc"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5de5\u8cc7"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5bb6\u5712"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e79\u5230\u81a9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ad8\u7fa9\u4f60"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u7b26"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6838\u5ee2\u6599"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96c4\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u77ef\u60c5"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5fc3\u865b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u5217"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u626f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767c\u4e0d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53d7\u5bb3\u8005"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u793e\u76df"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9165\u9905"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u79ae\u62dc\u516d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6642\u8aaa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65e9\u5b89"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6eff\u81c9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "BabyRage"
+  }, 
+  {
+    "value": 7.0, 
+    "key": "\u95dc\u806f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8f14\u4ec1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96fb\u6f32"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a69\u8cfa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u64a5\u63a5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96e3\u602a\u6703"
+  }, 
+  {
+    "value": 9.0, 
+    "key": "\u8981\u554f"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u8cb7\u7968"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u689d\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u684c\u96fb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6536\u990a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cb4\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b1b\u904e"
+  }, 
+  {
+    "value": 63.0, 
+    "key": "\u6b20\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ed1\u8303"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6eff\u6eff\u7684"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6709\u5b8c\u6c92\u5b8c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f70\u5316\u5e02"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u539f\u7248"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56de\u8840"
+  }, 
+  {
+    "value": 11.0, 
+    "key": "\u507d\u7269"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6f5b\u898f\u5247"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u597d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8eb2\u8d77\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65b0\u5317\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7b97\u4e86\u5427"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u771f\u5dee"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6fc0\u51f8\u6559"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "FBI"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f86\u6e90"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u58d3\u6839"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6c99\u5c0f"
+  }, 
+  {
+    "value": 81.0, 
+    "key": "\u5148\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a55\u4f30"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5354\u8b70"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d17\u6d17"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5973\u6b0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5dee\u8ddd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5175\u8b8a"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "adsl"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u88ab\u76dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6df7\u4e0d\u4e0b\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e95\u7dda"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d88\u5931"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6587\u737b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6263\u5e3d\u5b50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a2e\u65cf\u4e3b\u7fa9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u986f\u793a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ed1\u6389"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u5b78\u751f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c11\u8ecd\u5b85"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u60c5\u66f8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6797\u7fa9\u96c4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7576\u5929"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u592a\u5f31"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u78ba\u5e78"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d0f\u5bb6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5ec8\u9580"
+  }, 
+  {
+    "value": 31.0, 
+    "key": "\u6012\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96fb\u529b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u624b\u6ed1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d20\u809a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6027\u884c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6176\u751f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u70ba\u69ae"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e2b\u8cc7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6797\u5317"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f35\u9806\u744b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7f70\u5247"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7da0\u80fd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u914d\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e94\u6b0a\u5206\u7acb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u775c\u773c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5ee2\u6e23"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "118ip"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u80cc\u934b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5be9\u5224"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6295\u964d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72f9\u9698"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5357\u6975"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u755c\u751f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a2e\u7530"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5206\u4eab"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u602a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81c9\u5927"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6587\u6c92"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9178\u8fa3\u6e6f"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5c08\u7248"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7bc7\u6587\u7ae0"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7fa9\u52d9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5728\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u592a\u591a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u627f\u64d4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6f14\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u907a\u9918\u529b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u83dc\u9ce5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u75be\u75c5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9078\u64c7\u984c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6625\u98a8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u4f86\u807d\u807d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u738b\u516b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u958b\u623f\u9593"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c6a\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u66f2\u68cd\u7403"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5f88\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f37\u947d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63d0\u9192"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u54ea\u4f4d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5104\u6c11\u773e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e4b\u9593"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ad8\u723e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5169\u6240"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6234\u5047\u9aee"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76f8\u8655"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u67ef\u662f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53c8\u919c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d17\u7248"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "9487"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5fc5\u54ed"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63d2\u721b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u770b\u5f97"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u958b\u5716"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8f3f\u8ad6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5077\u6771\u897f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ce0\u9322"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6211\u80a5\u5b85"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u901a\u8eca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "S7"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5c0d\u7acb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6642\u9577"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7be4\u5b9a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "0.87"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u70ab\u8000"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u74b0\u5357"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u653f\u6cbb\u5316"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540c\u5c6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "So"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "1.162"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e79\u59b9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u7f8e\u5143"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u62cd\u904e"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6797\u4f73\u9f8d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5cb3\u7236"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u591a\u65bc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5979\u5abd"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u591a\u5403\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c01\u6bba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6700\u7d42"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u66fe\u7d93"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52a0\u62ff\u5927\u4eba"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u641e\u4e0d\u6e05\u695a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u958b\u767c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6cd5\u689d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u60e1\u5fc3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u805a\u7126"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u5e79"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u76d2\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u963f\u963f"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7acb\u9662"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c59\u540d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u667a\u969c\u8005"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u904e\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6536\u4e00\u6536"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u8ddf\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7ba1\u597d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6709\u623f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8f1f\u5b78"
+  }, 
+  {
+    "value": 22.0, 
+    "key": "\u559c\u6c23"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d81\u67b6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u5c4e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5fae\u8584"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90b1\u6bc5"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4f69\u96ef"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5718\u7d50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a05\u91d1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90dd\u5175"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6a02\u8da3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7b97\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ffd\u649e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5634\u4e09\u5c0f"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u8166\u7c89"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u51b7\u975c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u57fa\u672c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6295\u6a5f\u4efd\u5b50"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u96d9\u500d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u82f1\u72d7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u597d\u9078"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u53f3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63a8\u8aaa"
+  }, 
+  {
+    "value": 78.0, 
+    "key": "\u5fc5\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u66b4\u623e\u4e4b\u6c23"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u651d\u5f71"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5361\u9084"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d77\u79d1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9178\u6c11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7b11\u7f75"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a72\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a18\u9304\u5668"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5408\u6cd5\u6536\u5165"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5668\u5b98"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9003\u96e3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5973\u7248\u99ac"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u5587\u5e79"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b49\u660e\u984c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ac7\u5224"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u53e3\u865f"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u548c\u5c1a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7537\u6027"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6bcd\u795e\u8c6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u98df\u8a18"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u812b\u8932\u5b50"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5f15\u6230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7248\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7279\u6b0a"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u653e\u5c41"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u61f6\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d3b\u5728"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b8a\u76f8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540c\u5fc3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f35\u5bb6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50a2\u4f19"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d70\u4e5d\u904d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8c6c\u6cb9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9010\u6f38"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5438\u4e0b\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bb3\u6b7b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u641e\u4e0d\u5b9a"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5614\u5614"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u53bb\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f30\u72d7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u904e\u6c23"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6709\u8089"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ed\u4fd7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u5957"
+  }, 
+  {
+    "value": 9.0, 
+    "key": "\u65fa\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5947\u6848"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b20\u8a00"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96f6\u5206"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5ee2\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u8457"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u8d77"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7167\u9818"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u8aaa"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u6309\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6709\u80a1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8996\u983b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6bcf\u7a2e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u593e\u6bba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u597d\u4e0b\u5834"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ef\u898b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u843d\u5be6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b1b\u7406"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e09\u6d41"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540c\u6027\u6200\u8005"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53d4\u53d4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u548c\u7d04"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96a8\u6a5f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8caa\u5f97\u7121\u53ad"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u6cd5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f88\u5f37"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52a0\u71b1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u773c\u7d05"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u9ee8\u610f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c0f\u72d7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d3e\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u624b\u52e2"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5171\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0a\u6a5f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8655\u7f70"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6559\u80b2\u8cc7\u6e90"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9032\u53e3\u8eca"
+  }, 
+  {
+    "value": 17.0, 
+    "key": "\u5e73\u884c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e82\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f5c\u8cca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7576\u653f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c08\u51fa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "Google"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u805a\u96c6\u5730"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cf4\u5e33"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6aa2\u5bdf\u5b98"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u554f\u4ed6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u89c0\u5149\u5ba2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u600e\u8aaa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b88\u8c9e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "iTunes"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u80a5\u6cb9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e78\u597d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7814\u7a76\u6240"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u558a\u723d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u534a\u65a4\u516b\u5169"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6295\u8521"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5f31\u667a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e6b\u99ac"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u87a2\u5e55"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b8a\u9020"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u968a"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u4e4b\u516b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u81a9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b2c\u8ad6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9078\u8f38"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7e8f\u8db3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f86\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d1e\u516b\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e55\u50da"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9b28\u7b11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e1f\u53f0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u65b0\u805e"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u4e0a\u8def"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u8b0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516c\u793e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5206\u662f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u570b\u6176"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5916\u6d41"
+  }, 
+  {
+    "value": 19.0, 
+    "key": "\u96f7\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u812b\u5149"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u5c11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9023\u4fdd\u6bcd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8981\u4ed8"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u4fee\u6cd5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6182\u9b31\u75c7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56de\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7f75\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90a3\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u83dc\u982d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6562\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b83\u570b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "King"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u770b\u7ba1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9670\u8396"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d2a\u79c0\u67f1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u898f\u6a21"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76f4\u5347\u6a5f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u8a71"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u6c92\u770b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u8ddf"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7df4\u7403"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f9e\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u5927\u65e9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u79c1\u4fe1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5be6\u9ad4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d85\u919c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7576\u6211"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u570b\u5b9a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d17\u767d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c34\u6e9d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u665a\u5b89"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7dda\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u524d\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8667\u6b7b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u592a\u65e9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8166\u88dc\u6210"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8caa\u6c61"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8840\u7de3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u79fb\u6c11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f4d\u968e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d77\u5e8a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6aa2\u6e2c"
+  }, 
+  {
+    "value": 14.0, 
+    "key": "\u518d\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u66f8\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d85\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9078\u4e2d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76e3\u8996\u5668"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50b7\u773c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u6085"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e2d\u6b21"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6a5f\u6cb9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "p4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6230\u7ffb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u983b\u7387"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c11\u6389"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53e3\u6190"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6cd5\u6cbb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u809b\u809b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96fb\u8166\u524d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u58d3\u5236"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5de6\u81a0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e16\u754c\u5947\u89c0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7acb\u523b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0b\u81fa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5abd\u7956"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u591a\u8166"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6efe\u62c9"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5e7e\u904d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540d\u865f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cc7\u672c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9d3f\u6d3e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6f2b\u5a01"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6241\u6848"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u8655\u5973"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ea\u60f3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ef\u4fdd"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u4ec0\u9ebc\u6a23"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767d\u65e5\u5922"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8084\u696d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "fuxk"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4e00\u9ee8\u7368\u5927"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6574\u4ef6\u4e8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5269\u4e00"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u722c\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u79d1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53bb\u5074"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4fdd\u885b"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u74b0\u7403"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u79ae\u8b93"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5435\u5c41"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u512a\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u8001"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53cd\u780d"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5c4e\u7d42"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u57fa\u5c64"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5091\u5c3c\u9f9c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b1b\u4eba\u8a71"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f88\u7aae"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5916\u60a3\u7f6a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u512a\u7b49"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u5acc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u5c46"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f88\u9ad2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d8a\u4f86\u8d8a\u5c11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u670d\u8cbf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "like"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ede\u597d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b89\u5168\u5e3d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7576\u8089"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5438\u53f0\u7063"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u84cb\u84cb\u84cb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "iVoting"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d85\u5f31"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54ea\u88e1\u9023"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "OP"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c55\u6db2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72fc\u7236"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u542b\u8840"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e03\u50cf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e7e\u5341\u5e74"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5951\u4e39"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b78\u5206"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5361\u746a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6709\u6548"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e82\u7b97"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "b8"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u52de\u65b9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e4b\u738b"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u516c\u5be9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8003\u99d5\u7167"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "30K"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6cd5\u4f8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5403\u4e0d\u8d77"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6280\u8077\u751f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7aa9\u6703"
+  }, 
+  {
+    "value": 16.0, 
+    "key": "\u5de5\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "kuyodada"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "zzz"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6f5b\u529b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72d7\u51a5\u9ee8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u5df2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5ff5\u66f8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b1b\u4e0d\u8d0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u91cd\u6a5f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7834\u9ebb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8521\u82f1\u4e5d\u5225"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "TVBS"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u563b\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5ec9\u6065"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5929\u7d93\u5730\u7fa9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u4e09"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u771f\u5ee2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e09\u69cd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a7a\u5fc3\u83dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u73fe\u5f62"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u6709"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6240\u6709\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u6b63"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76d2\u76d2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f34\u4fb6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5de5\u5546"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c11\u71df"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54ea\u4e00\u570b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u9580"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5dee\u7570"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f86\u4f86\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f86\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5148\u4e92"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7528\u6236"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u7591\u554f\u53e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c4e\u5c3f"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u6d77\u5cfd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u6703\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u773c\u79d1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ab0\u4ed6\u5abd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8868\u9054"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7c97\u5976"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9583\u8eb2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u597d\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540c\u5a5a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6210\u65b0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u5851"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5442\u79cb\u9060"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6293\u7372"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8173\u8e0f\u8eca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9999\u7210"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8702\u871c"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u8cbb\u96ef"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u7b11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6211\u4f69\u96ef"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u8f2a\u4e0d\u5230"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u5de5\u9b25"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50b7\u75d5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65e5\u672c\u793e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6211\u4f4f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u51f1\u9053"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d3b\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6e05\u5009"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u7b49"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u95dc\u53f0\u7063"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52d5\u90e8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u982d\u6bbc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6b20\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7e3d\u6210\u672c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72d7\u5c41\u4e0d\u901a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76dc\u7248"
+  }, 
+  {
+    "value": 16.0, 
+    "key": "\u6c92\u58de"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u80a5\u5b85\u5011"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5065\u8eab\u623f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a8d\u5f97"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9632\u7a7a\u7db2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e95\u6587"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u81ed\u6b7b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9285\u724c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u8f38"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u5206"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f8c\u5bae"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "zzzzzzz"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6211\u80fd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u843d\u9078"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c11\u9ee8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5929\u4e3b\u6559"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8607\u8d77"
+  }, 
+  {
+    "value": 40.0, 
+    "key": "\u6c92\u5716"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8acb\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52de\u5718"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6234\u5967\u8f9b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e82\u7528"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5207\u8179"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u79bf\u5b50"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7aa9\u8981"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6574\u5f62"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u672a\u6210\u5e74"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u901a\u878d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5169\u4e09\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d70\u9418"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u985e\u6bd4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516b\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6575\u5c0d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f88\u611b\u5728"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7948\u79b1"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u6a02\u4e0d\u601d\u8700"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u670d"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u8aaa\u4e86\u7b97"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7b2c\u4e00\u53e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9d3b\u6d77"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7f70\u6b3e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "YOUTUBE"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e82\u958b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ef\u559c\u53ef\u8cc0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u5403\u904e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56db\u5c0f\u9f8d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "zz"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4ec7\u540c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5be9\u67e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a00\u800c\u7121\u4fe1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cb7\u8eca"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4e8c\u5206\u6cd5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6b89\u9ee8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6488\u9322"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u5435"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u7d05\u8272"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6709\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6642\u7c89"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9435\u528d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8349\u6848"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u83dc\u5473"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "37"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ddf\u672c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96a8\u610f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u70ae\u7070"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u721b\u7247"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "youtuber"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5be6\u5730"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f60\u8209"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u5305"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d85\u5047"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9709\u9ad4"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u7d14\u6f54"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u559d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540c\u7406"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6aaf\u9762"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d10\u7d04\u6642\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bc4\u751f\u87f2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9810\u7d04"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d66\u7684"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7b2c\u4e8c\u6b21"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u81fa\u4e2d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9001\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "KMTer"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516c\u8077\u4eba\u54e1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63d2\u7ba1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "33k"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u53cd\u653b\u5927\u9678"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81fa\u4e0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8718\u86db"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u60f3\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u70ba\u60c5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8db4\u5974"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5341\u53f0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c11\u4f86"
+  }, 
+  {
+    "value": 7.0, 
+    "key": "onefly"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6c92\u653e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u963f\u5e79"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u548c\u8ae7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5225\u5ac1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u751f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9580\u5916"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5047\u8981"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56db\u5e74"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ede\u5b50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5929\u738b"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u512a\u5148"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52de\u6aa2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u540d\u8a5e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5718\u7684"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9662\u9577"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u76f8\u4f3c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6559\u5316"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4efd\u96de\u6392"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u773c\u775b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90a3\u62db"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b8a\u5dee"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5fc3\u9178"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5fb7\u5a92"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u9084\u7576"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7121\u95dc"
+  }, 
+  {
+    "value": 8.0, 
+    "key": "\u5993\u8005"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9000\u8a02"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u571f\u689d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7e73\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7537\u68ee"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6295\u7968\u6b0a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5225\u7e23"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u5012"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u721b\u7684"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u901a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "139"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c08\u9801"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "lg"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6b98\u5ee2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u93e1\u5b50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9023\u7d0d\u4fdd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u9031"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "2015"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f4c\u88dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5171\u532a"
+  }, 
+  {
+    "value": 8.0, 
+    "key": "\u639b\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6700\u4f4e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6703\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u90e8\u5206"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u89aa\u5bc6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ef\u6065"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ca1\u5bcc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7121\u9650"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767c\u660f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u990a\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81f4\u8c6a\u5927"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "700"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7ba1\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767e\u543b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u5546"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c01\u5305"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u982d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ee8\u6821"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u552c\u721b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "84"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u706b\u5927"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5357\u671d\u9bae"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u4f4f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u96c7\u4e3b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u919c\u6b7b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ea\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53ef\u60b2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5929\u50f9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5403\u5927\u4fbf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7570\u8b70"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7fa4\u773e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6027\u5225\u6b67\u8996"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63db\u540d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c41\u54a7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8209\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6587\u662f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u57fa\u9686\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7329\u7329"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u95dc\u9580"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u4f60\u6d3b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u57f7\u653f\u9ee8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u88dc\u8cbc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u88dd\u807e"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6d77\u908a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u62b9\u9ed1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cbc\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bcc\u9326"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5468\u82b7\u82e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u5143\u5e25"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a8d\u932f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a55\u5be9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8d85\u721b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6587\u5fc5\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65c5\u904a\u696d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9032\u5976"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u95dc\u4e00\u95dc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "VIVE"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6a19\u7c64"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u864e\u721b"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5de6\u8f49"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u611b\u5403"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bec\u5bb9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "1.7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5341\u5104"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u842c\u4e00"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a8d\u53ef"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516c\u76ca"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u9192"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u58de\u4e8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u71b1\u8eab\u8cfd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u91ac\u6599"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u59b9\u7d19"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u91cd\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u5099"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c61\u884a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4ee3\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bec\u9b06"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7121\u77e5"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u9b27\u677f"
+  }, 
+  {
+    "value": 36.0, 
+    "key": "\u5e6b\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b5d\u9806"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u676f\u845b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u8aaa"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ad6\u9ede"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u9435"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u539f\u66f2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52fe\u80a9\u642d\u80cc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u54c1"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u88ab\u8eca\u649e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50f1\u4e3b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d77\u7058"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u57fa\u4f6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u770b\u5361"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6e2c\u5b8c"
+  }, 
+  {
+    "value": 2.0, 
+    "key": "\u5acc\u7968"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e1f\u4eba\u73fe\u773c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9760\u7238"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b1b\u5b8c"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u95a3\u4e0b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u54ed\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c0f\u7d44"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5979\u8b1b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u5634"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6cd5\u9662"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u796d\u6c0f"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u67ef\u5efa\u9298"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u786c\u5e79"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u61b2\u6cd5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u672c\u4e8b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6253\u5ee3\u544a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56de\u7b54"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u6c61\u8fb1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u60f3\u544a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ede\u534a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "128"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7368\u8463"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5410\u51fa\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53e3\u888b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u83dc\u50f9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6436\u6551"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6642\u5831"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u771f\u4ee5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u597d\u5eb7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u80a5\u8c6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f37\u786c"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6709\u4f55"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53d6\u6696"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u721b\u900f"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "PS"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u778e\u8a71"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u4f4d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6050\u6016\u5206\u5b50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u86cb\u5716"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5feb\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9000\u8cbb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u89aa\u53e3\u8aaa"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u73a9\u6c99"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ce3\u570b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6ce1\u4eae"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u771f\u7684\u5047"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5207\u65b7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63db\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u800d\u7334"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u570b\u738b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u88fd\u4f5c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "IC\u5361"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u4e0d\u51fa\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f88\u611b\u53bb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u57fa\u7763\u5f92"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b89\u6aa2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516c\u5047"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u518d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u60f3\u751f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u597d\u96e3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8b8a\u591a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u6c92\u9ed1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u570b"
+  }, 
+  {
+    "value": 3.0, 
+    "key": "\u5a4a\u5b50"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "cd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u5224"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7f6a\u72af"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bd2\u87ec"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63a8\u52d5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "N64"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u570b\u7247"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e09\u83f1"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7df4\u7df4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c64\u7d1a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u570b\u5171\u7522\u9ee8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9127\u4f73\u83ef"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "liquidbox"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6211\u60f3\u554f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c11\u5bbf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7db2\u7d05"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u653e\u4e09\u5c0f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5916\u8499"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7259\u52a9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u90a3\u6642"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8aaa\u6210"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u60f3\u7576"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u88ab\u9178\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9055\u53cd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56de\u7a69"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c31\u5225"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6436\u8457"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u98ef\u6876"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d9c\u85dd\u7bc0\u76ee"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9867\u7acb\u96c4"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4eba\u52d2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7761\u5361"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u516d\u9382"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6392\u4fbf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u842c\u500b"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u593e\u65b7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "ph2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9bae\u5e2b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "GAY"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "35k"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5403\u85e5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7aae\u9b3c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6697\u7db2"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ce4\u6c11"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u820a\u805e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ad6\u58c7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4fee\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u67d0\u4eae"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6848\u5b50"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b69\u7d19"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ac7\u8ac7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5974\u96b8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a62\u554f"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u4fca\u752b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6539\u9769"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5750\u8f2a\u6905"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c0f\u9ec3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u89aa\u5c6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7522\u80fd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8a72\u6b7b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u62cd\u99ac\u5c41"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9019\u672c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u50b3\u7968"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u5225\u9a19"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u6642\u7a7a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e7e\u7bc7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u649e\u6a39"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ed1\u7279"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7cde\u9752"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8cb7\u4e0d\u8d77"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9003\u7a05"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u963f\u5b24\u809b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8001\u95c6\u5a18"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7a2e\u5b50"
+  }, 
+  {
+    "value": 9.0, 
+    "key": "\u8a0e\u62cd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7b11\u5ddd\u666e"
+  }, 
+  {
+    "value": 8.0, 
+    "key": "\u809b\u6b7b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u57fa\u672c\u5de5\u8cc7"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53bb\u9818"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e7c\u7a1a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u8b8a"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u99ac\u6876"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8df3\u7968"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u97f3\u8b6f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u8b93"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6703\u6f32"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6025\u8457"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "B8"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5973\u7ae5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u9152"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5bb3\u5230"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u9ad8\u7d1a"
+  }, 
+  {
+    "value": 35.0, 
+    "key": "\u81ed\u5b85\u6703"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u721b\u721b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5927\u5c3e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "981"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u82f1\u5e1d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c92\u6559"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ad8\u5c1a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9053\u7fa9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6b77\u53f2\u6559\u8a13"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "113"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u554f\u4f60\u5abd"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5373\u5c07"
+  }, 
+  {
+    "value": 9.0, 
+    "key": "\u8ecd\u5b85"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9760\u908a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e5d\u5c64"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u592a\u4e45"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f54\u4e45"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u80fd\u7576"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e00\u6574\u5929"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6162\u6162\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u901f\u98df\u5e97"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6162\u8d70"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f48\u7c97\u5976"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u91e3\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u74b0\u5cf6"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8001\u982d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5230\u982d\u4f86"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u99d0\u53f0"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5468\u7dad\u7406"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65b0\u8a13"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6d6a\u8cbb\u8cc7\u6e90"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e36\u982d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8543\u8304"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6cd5\u662f"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f71\u5c04"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u542b"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u9084\u786c\u8981"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e59\u54ed"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5077\u6e21"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u72d7\u7537\u5973"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4eba\u9084"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81ea\u5408"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "4A"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5e79\u4ec0\u9ebc"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u63a1\u8a2a"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9663\u982d"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u570b\u6642\u5831"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5104\u5143"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u534a\u6876\u6c34"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7fa9\u5de5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53f0\u7063\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u755c\u7272"
+  }, 
+  {
+    "value": 4.0, 
+    "key": "\u9084\u53eb"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f5c\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f35\u5634"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c31\u9023"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7761\u9192"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5b6b\u4e2d\u5c71"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u610f\u5716"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9ee8\u6d3e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u56de\u934b\u6cb9"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u53cd\u670d\u8cbf"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u4e0d\u5653"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7acb\u5834"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u91cd\u8b80"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u9084\u9322"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u81c9\u76ae"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u624d\u7d66"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0a\u9032\u5fc3"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6feb\u60c5"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7d50\u5c3e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4f86\u9ede"
+  }, 
+  {
+    "value": 6.0, 
+    "key": "\u6703\u7406"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e0d\u8a31"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5c31\u9084"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u99ac\u4f86\u897f\u4e9e\u4eba"
+  }, 
+  {
+    "value": 7.0, 
+    "key": "\u8166\u516c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u8ce3\u5834"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u7528\u8a9e"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u6c99\u8c6c"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u52a0\u500b"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u65e5\u6587"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u5f70\u5316\u4eba"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u4e2d\u91ab"
+  }, 
+  {
+    "value": 1.0, 
+    "key": "\u767d\u8cca"
+  }
+]

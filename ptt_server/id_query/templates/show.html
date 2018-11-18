@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+{% load static %}
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+$shadow-color: #23203b;
+$input-color: lighten(#AB9E95, 10%);
+$input-border-color: #5E5165;
+$button-background-color: #27AE60;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: transparent;
+  position: fixed;
+  overflow-y:scroll;
+}
+
+body, input, button {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin normalize-input {
+  display: block;
+  width: auto;
+  height: auto;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 0px;
+}
+
+.login {
+  padding: 15px;
+  width: 400px;
+  min-height: 400px;
+  margin: 2% auto 0 auto;
+
+  .heading {
+    text-align: center;
+    margin-top: 1%;
+
+    h2 {
+      font-size: 3em;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 01);
+      display: inline-block;
+      padding-bottom: 5px;
+      text-shadow: 1px 1px 3px $shadow-color;
+    }
+  }
+
+  form {
+    .input-group {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+      &:last-of-type {
+        border-top: none;
+      }
+
+      span {
+        background: transparent;
+        min-width: 53px;
+        border: none;
+
+        i {
+          font-size: 1.5em;
+          color: rgba(255, 255, 255, 0.2);
+        }
+      }
+    }
+
+    input.form-control {
+      @include normalize-input;
+
+      padding: 10px;
+      font-size: 1.6em;
+      width: 100%;
+      background: transparent;
+      color: $input-color;
+
+      &:focus {
+        border: none;
+      }
+    }
+
+    button {
+      margin-top: 20px;
+      background: $button-background-color;
+      border: none;
+      font-size: 1.6em;
+      font-weight: 300;
+      padding: 5px 0;
+      width: 100%;
+      border-radius: 3px;
+      color: lighten($button-background-color, 40%);
+      border-bottom: 4px solid darken($button-background-color, 10%);
+
+      &:hover {
+        background: tint($button-background-color, 4%);
+        -webkit-animation: hop 1s;
+        animation: hop 1s;
+      }
+    }
+  }
+}
+
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.float:hover, .float:focus, .float:active {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1500px) {
+}
+
+@media only screen and (max-width : 1200px) {
+  .login {
+    width: 600px;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width : 1100px) {
+  .login {
+    margin-top: 2%;
+    width: 600px;
+    font-size: 1.7em;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .login {
+    margin-top: 1%;
+    width: 550px;
+    font-size: 1.7em;
+    min-height: 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .login {
+    margin-top: 0;
+    width: 500px;
+    font-size: 1.3em;
+    min-height: 0;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .login {
+
+    h2 {
+      margin-top: 0;
+    }
+
+    margin-top: 0;
+    width: 400px;
+    font-size: 1em;
+    min-height: 0;
+  }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+  .login {
+    margin-top: 0;
+    width: 200px;
+    font-size: 0.7em;
+    min-height: 0;
+  }
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+#graph_legend_bar {
+  height: 36px;
+  width: 300px;
+  position: absolute;
+  overflow:hidden;
+  border-radius:20px 20px 0px 0px;
+  z-index: 999;
+  left: 510px;
+  top: 110px;
+  opacity: 0.8;
+}
+#graph_legend {
+  height: 180px;
+  width: 300px;
+  position: absolute;
+  overflow:hidden;
+  border-radius:0px 0px 20px 20px;
+  z-index: 999;
+  left: 510px;
+  top: 146px;
+  opacity: 0.8;
+}
+#display_left {
+  float:left;
+  border-radius:20px;
+  min-height:1px;
+}
+#middle_line {
+  float:left;
+  min-height:1px;
+}
+#display_right {
+  float:left;
+  border-radius:20px;
+  min-height:1px;
+}
+#display2 {
+  border-radius:20px 20px 1px 1px;
+  text-align: justify;
+  min-height:1px;
+}
+#display3 {
+  border-radius:1px 1px 20px 20px;
+  min-height:1px;
+}
+
+
+text {
+  font: 12px sans-serif;
+}
+circle {
+    stroke: #565352;
+    stroke-width: 1;
+}
+
+info1 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative; 
+    top:10px;
+    left:65px; 
+}
+info2 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative; 
+    top:10px;
+    left:65px;
+}
+info3 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative;
+    top:10px; 
+    left:165px;
+}
+info4 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative;
+    top:10px; 
+    left:65px;
+}
+info5 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative;
+    top:10px; 
+    left:65px;
+}
+info6 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative;
+    top:10px; 
+    left:65px;
+}
+
+link_info1 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:absolute;
+    top:7px;
+    left:17px;
+
+}
+link_info2 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative;
+}
+link_info3 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative;
+    top:7px;
+    left:17px;
+}
+link_info4 {
+    font: 20px sans-serif;
+    color: rgba(247, 247, 247, 0.8);
+    position:relative;
+}
+
+#link_info_div1 {
+    border-radius:20px 20px 1px 1px;
+    position:relative;
+    width:599px;
+    height:70px;
+    background: #000000;
+}
+#link_info_div2 {
+    width: 599px;
+    height: 280px;
+    overflow-y:scroll;
+}
+#link_info_div3 {
+    position:relative;
+    width:599px;
+    height:70px;
+    background: #000000;
+}
+#link_info_div4 {
+    width: 599px;
+    height: 280px;
+    overflow-y:scroll;
+}
+
+hr {
+    margin-left: 0px;
+    border-width: 1px;
+    color: #F5F5F5;
+    opacity: 0.3;
+} 
+
+.liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+</style>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ID Query</title>
+    {% load static %}
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static "main/css/bootstrap.min.css" %}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{% static "main/css/half-slider.css" %}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="background-color:#F0F0F0;">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/home">PTTonitor</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/query">Query</a>
+                    </li>
+                    <li>
+                        <a href="/keywords">Keyword</a>
+                    </li>
+                    <li>
+                        <a href="/home/#footer">Contact</a>
+                    </li> 
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+    <!-- Page Content -->
+    <br>
+    <br>
+    <br>
+    {% load static %}
+    <div id="container" class="container" style="background-image:url({% static "image/background.jpg" %}); width:1440px; height:760px;">
+    <div style="width:250px; height:35px;">
+       <input id="search">
+        <button type="button" onclick="searchNode()">Search</button>
+    </div>
+    <div id="graph_legend_bar">
+      <img src="{% static "force_graph/legend_bar2.jpg" %}" height="100%" width="100%">    
+    </div>
+    <div id="graph_legend">
+      <img src="{% static "force_graph/legend4.jpg" %}" height="100%" width="100%">    
+    </div>
+
+    {% load static %}
+    <div id="display_left" style="width:810px; height:700px; border:2px rgba(43, 63, 51, 0.2) dashed;");">
+      <script src="https://d3js.org/d3.v3.min.js"></script>
+      <script type='text/javascript' src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+      <script type='text/javascript' src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+      <script type='text/javascript' src="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"></script>
+      <script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+      
+      {% load static %}
+      <!-- Load the css and js file of loading mask -->
+      <link href="{% static "HoldOn.js-master/src/css/HoldOn.min.css" %}" rel="stylesheet">
+      <script src="{% static "HoldOn.js-master/src/js/HoldOn.min.js" %}"></script> 
+      <script src="{% static "liquid/liquidFillGauge.js" %}" language="JavaScript"></script>    
+      
+      <script>
+        var graph_legend_flag = 0;
+
+        $( "#graph_legend_bar" ).click(function() {
+            if(graph_legend_flag == 0){
+                $('#graph_legend').animate({
+                  opacity: 0
+                }, 400, function() {
+                  $('#graph_legend').hide();
+                });
+
+                graph_legend_flag = 1;
+            }
+            else if(graph_legend_flag == 1){
+                $('#graph_legend').show().animate({
+                  opacity: 0.8
+                }, 400, function() {
+                  // Animation complete.
+                });
+
+                graph_legend_flag = 0;
+            }
+
+        });
+        $( "#graph_legend_bar" ).mouseover(function() {
+              $('#graph_legend_bar').animate({
+                opacity: 1
+              }, 400, function() {
+                // Animation complete.
+              });
+        });
+        $( "#graph_legend_bar" ).mouseout(function() {
+              $('#graph_legend_bar').animate({
+                opacity: 0.8
+              }, 400, function() {
+                // Animation complete.
+              });
+        });       
+      </script>
+      
+      <script>
+      var query_id = "{{ ID }}"
+      var id_tokens;
+
+      var width = 810,
+          height = 700,
+          radius = 1;
+
+      var margin = {top: -5, right: -5, bottom: -5, left: -5};
+
+      var mouse_coordinate_x, mouse_coordinate_y;
+      $("#display_left").mousemove(function(e) {
+          mouse_coordinate_x = e.pageX;
+          mouse_coordinate_y = e.pageY;
+      })
+
+      var svg = d3.select("#display_left").append("svg")
+          .attr("width",  '100%')
+          .attr("height", '100%')
+          .call(d3.behavior.zoom().scaleExtent([0.8, 5]).on("zoom", function () {
+            svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
+          }))
+          .on('dblclick.zoom', null)
+          .on('click', function(d){
+            d3.selectAll("circle")
+              .transition()
+              .duration(300)
+              .style("fill", function(d){
+                return "#77b2a0";
+            });            
+            recovery();
+          })
+          .attr("transform", "translate(" + margin.left + "," + margin.right + ")")
+          .append("g");
+
+      var force = d3.layout.force()
+          .gravity(0.048)
+          .distance(200)
+          .charge(function(d, i) { return i==0 ? -500 : -300; })
+          .size([width, height]);
+
+      // arrow of links
+      svg.append("defs").selectAll("marker")
+          .data(["suit", "licensing", "resolved"])
+        .enter().append("marker")
+          .attr("id", function(d) { return d; })
+          .attr("viewBox", "0 -5 10 10")
+          .attr("refX", 25)
+          .attr("refY", 0)
+          .attr("markerWidth", 8)
+          .attr("markerHeight", 8)
+          .attr("orient", "auto")
+        .append("path")
+          .attr("d", "M0,-5L10,0L0,5 L10,0 L0, -5")
+          .style("stroke", "#272727")
+          .style("stroke-width", 2)
+          .style("opacity", "1");
+
+
+
+      {% load static %}
+      d3.json("{% static "force_graph/graph.json" %}", function(error, json) {
+        if (error) throw error;
+
+        force
+            .nodes(json.nodes)
+            .links(json.links)
+            .start();
+
+
+
+        var tip = d3.tip()
+            .attr('class', 'd3-tip')
+            .style("left", "d3.event.pageX-34" + "px")     
+            .style("top", "d3.event.pageY-12" + "px")
+            .offset([-10, 0])
+            .html(function (d) {
+              /*
+              if(Object.keys(d.freq).length == 0){
+                return "我沒說過話";
+              }
+              var freq = d.freq;
+              var str = "";
+
+              var index = Math.floor(((Math.random() * Object.keys(freq).length)) + 1);
+              str = str + Object.keys(freq)[index];
+              return str;
+              */
+              return "安安";
+            })
+        svg.call(tip);
+
+
+        var tip2 = d3.tip()
+            .attr('class', 'd3-tip') 
+            .offset([0, 10])
+            .html(function (d) {
+              if(d.fan_comment != 0){
+                return "<font color='#C4E1E1'>" + "用詞相似度 = " + JSON.stringify(d.width)+ "</font>" + "<br/><br/>" + "<font color='#FFED97'>" + d.source.name + "</font>" + " 回覆 " + "<font color='#FF9797'>" + d.total_comment + "</font>" + " 篇文章中" + "<br/>" + "有 " + "<font color='#FF9797'>" + d.fan_comment + "</font>" + " 篇文章的作者是 " + "<font color='#FFED97'>" + d.target.name + "</font>";
+              }
+              else{
+                return "<font color='#C4E1E1'>" + "用詞相似度 = " + JSON.stringify(d.width) + "</font>";
+              }    
+            })
+        svg.call(tip2);
+
+
+        // scale edge-width for opacity
+        var maxScaleWidth = 1.0;
+        var minScaleWidth = 0.5;
+        var maxWidth = 1.0;
+        var minWidth = 0.0;
+        var width_scale = d3.scale.linear().range([minScaleWidth,maxScaleWidth]).domain([minWidth,maxWidth]);
+        
+        var link = svg.selectAll(".link")
+            .data(json.links)
+            .enter().append("line")
+            .attr("class", "link")
+            .attr("opacity", function(d){
+                if(d.value == 1){
+                  //return '0.8';
+                  return (width_scale(d.width)).toString();
+                }
+                else if(d.value == 0){
+                  //return '0.6';
+                  return (width_scale(d.width)).toString();
+                }                
+            })
+            .attr("stroke-width", function(d){
+              return (1 + Math.exp(d.width * 3)).toString() + 'px'
+            })
+            .attr("stroke", function(d){
+              if(d.value == 1){
+                  return "#EAC100";
+              }
+              else if(d.value == 0){
+                  return "#999";
+              }  
+            })
+            .on('click', function(d) {
+              d3.event.stopPropagation();
+
+              HoldOn.open({
+                theme:"sk-cube-grid"
+              });
+
+              $(document).ready(function() {
+                  $.ajax({
+                      method: 'POST',
+                      url: '/link_info/',
+                      data: {'source': String(d.source.name), 'target': String(d.target.name)},
+                      success: function (data) {
+                          source_target_data = JSON.parse(data);
+                          link_info(String(d.source.name), String(d.target.name), source_target_data);
+                          HoldOn.close();
+                      },
+                      error: function (data) {
+                          alert("Something went wrong.");
+                          HoldOn.close();
+                      }
+                  });
+              });              
+            })
+            .on('mouseover', function(d){
+              tip2.show(d);
+              d3.select(this).style("cursor", "pointer");
+            })
+            .on('mouseout', function(d){
+              d3.select(this).style("cursor", "default");
+              tip2.hide();
+            })
+            .style('marker-end', function(d){
+              if(d.total_comment != 0){
+                return "url(#suit)";
+              }         
+            });
+ 
+
+        var node = svg.selectAll(".node")
+            .data(json.nodes)
+            .enter().append("g")
+            .attr("class", "node")
+            .call(force.drag)
+            .on('dblclick', connectedNodes)
+            .on('dblclick.zoom', null)
+            .on('click', function(d) {
+              d3.event.stopPropagation();
+              if (d3.event.defaultPrevented) {
+                return;
+              }
+              tip.show(d);
+          
+              HoldOn.open({
+                theme:"sk-cube-grid"
+              });
+
+              $(document).ready(function() {
+                  $.ajax({
+                      method: 'POST',
+                      url: '/node_info/',
+                      data: {'id': String(d.name)},
+                      success: function (data) {
+                          update();
+                          info = JSON.parse(data);
+                          id_info(String(d.name), info);
+                          HoldOn.close();
+                      },
+                      error: function (data) {
+                          alert("Something went wrong.");
+                          HoldOn.close();
+                      }
+                  });
+              });              
+            })
+            .on('mouseout', tip.hide);
+
+        force.drag()
+        .on('dragstart', function(d) {
+          d3.event.sourceEvent.stopPropagation();
+        });    
+
+
+        //id_info(query_id, " ");
+        node.append("image")
+            .attr("xlink:href", function(d){
+              if(query_id == d.name){
+                return "{% static "force_graph/main_person.ico" %}"
+              }
+              else{
+                return "{% static "force_graph/person.ico" %}"
+              }
+            })
+            .attr("x", -18)
+            .attr("y", -18)
+            .attr("width", 32)
+            .attr("height", 32)
+              .on("mouseover", function(d){ 
+              d3.select(this).transition().duration(650).attr("x", -23).attr("y", -23).attr("width", 64).attr("height", 64);
+              d3.select(this.parentNode).select("text").transition().duration(650).attr("dx", 32).style("font-size","18px").style("fill","red");
+              d3.select(this).style("cursor", "pointer");
+            })
+              .on("mouseout", function(d){ 
+              d3.select(this).transition().duration(650).attr("x", -18).attr("y", -18).attr("width", 32).attr("height", 32);
+              d3.select(this.parentNode).select("text").transition().duration(650).attr("dx", 17).style("font-size","13px").style("fill","black");
+              d3.select(this).style("cursor", "default");
+            });
+
+        node.append("text")
+            .attr("dx", 17)
+            .attr("dy", ".20em")
+            .style("font-size","13px")
+            .style("font-family","sans-serif")
+            .style("fill","black")
+            .text(function(d) { return d.name });
+
+
+
+        force.on("tick", function() {
+          link.attr("x1", function(d) { return d.source.x; })
+              .attr("y1", function(d) { return d.source.y; })
+              .attr("x2", function(d) { return d.target.x; })
+              .attr("y2", function(d) { return d.target.y; });
+
+          node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+              .attr("cx", function(d) { return d.x = Math.max(radius, Math.min(width - radius, d.x)); })
+              .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); });
+          //node.each(collide(0.5));
+        });
+
+
+        // for highlighting
+        var toggle = 0;
+        //Create an array logging what is connected to what
+        var linkedByIndex = {};
+        for (i = 0; i < json.nodes.length; i++) {
+            linkedByIndex[i + "," + i] = 1;
+        };
+        json.links.forEach(function (d) {
+            linkedByIndex[d.source.index + "," + d.target.index] = 1;
+        });
+        //This function looks up whether a pair are neighbours
+        function neighboring(a, b) {
+            return linkedByIndex[a.index + "," + b.index];
+        }
+        function connectedNodes() {
+            if (toggle == 0) {
+                //Reduce the opacity of all but the neighbouring nodes
+                d = d3.select(this).node().__data__;
+                node.style("opacity", function (o) {
+                    return neighboring(d, o) | neighboring(o, d) ? 1 : 0.1;
+                });
+                link.style("opacity", function (o) {
+                    return d.index==o.source.index | d.index==o.target.index ? 1 : 0.1;
+                });
+                //Reduce the op
+                toggle = 1;
+            } else {
+                //Put them back to opacity=1
+                node.style("opacity", 1);
+                link.style("opacity", 1);
+                toggle = 0;
+            }
+        }
+
+        // for collision detection
+        var padding = 1, // separation between circles
+            radius=8;
+        function collide(alpha) {
+          var quadtree = d3.geom.quadtree(json.nodes);
+          return function(d) {
+            var rb = 2*radius + padding,
+                nx1 = d.x - rb,
+                nx2 = d.x + rb,
+                ny1 = d.y - rb,
+                ny2 = d.y + rb;
+            quadtree.visit(function(quad, x1, y1, x2, y2) {
+              if (quad.point && (quad.point !== d)) {
+                var x = d.x - quad.point.x,
+                    y = d.y - quad.point.y,
+                    l = Math.sqrt(x * x + y * y);
+                  if (l < rb) {
+                  l = (l - rb) / l * alpha;
+                  d.x -= x *= l;
+                  d.y -= y *= l;
+                  quad.point.x += x;
+                  quad.point.y += y;
+                }
+              }
+              return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+            });
+          };
+        }        
+      });
+        
+        // for searching node
+        var optArray = [];
+        for (var i = 0; i < json.nodes.length - 1; i++) {
+            optArray.push(json.nodes[i].name);
+        }
+        optArray = optArray.sort();
+        $(function () {
+            $("#search").autocomplete({
+                source: optArray
+            });
+        });
+        function searchNode() {
+            //find the node
+            var selectedVal = document.getElementById('search').value;
+            var node = svg.selectAll(".node");
+            if (selectedVal == "none") {
+                node.style("stroke", "white").style("stroke-width", "1");
+            } else {
+                var selected = node.filter(function (d, i) {
+                    return d.name != selectedVal;
+                });
+                selected.style("opacity", "0");
+                var link = svg.selectAll(".link");
+                link.style("opacity", "0");
+            
+                // scale edge-width for opacity
+                var maxScaleWidth = 1.0;
+                var minScaleWidth = 0.5;
+                var maxWidth = 1.0;
+                var minWidth = 0.0;
+                var width_scale = d3.scale.linear().range([minScaleWidth,maxScaleWidth]).domain([minWidth,maxWidth]);
+
+                var node = svg.selectAll(".node");
+                node.transition().duration(5000).style("opacity", "1");
+
+                var link = svg.selectAll(".link");
+                link.transition().duration(5000).style("opacity", function(d){
+                    if(d.value == 1){
+                      //return '0.8';
+                      return (width_scale(d.width)).toString();
+                    }
+                    else if(d.value == 0){
+                      //return '0.6';
+                      return (width_scale(d.width)).toString();
+                    }                
+                }) 
+                }
+        }
+
+
+        // highlight nodes of similar tokens
+        function similar_token_nodes(id_tokens) {
+            var node = svg.selectAll(".node");
+            node.select("#temp_tip").remove();
+
+            node.append("text")
+                .attr("id", "temp_tip")
+                .attr("text-anchor", "middle")
+                .attr("dx", -1.5)
+                .attr("dy", 33)
+                .style("font-size","18px")
+                .style("font-family","sans-serif")
+                .style("fill","#2F4F4F")
+                .text(function(d) {
+                    var all_tokens = "";
+                    for (var key in id_tokens) {
+                        if (id_tokens.hasOwnProperty(key)) {
+                            if(d.name == key){
+                                var Length = id_tokens[d.name].length;
+                                for (var i=0; i<Length; i++){
+                                  all_tokens = all_tokens + ("、" + id_tokens[d.name][i]);
+                                }
+                                
+                                all_tokens = all_tokens.slice(1);
+                                return all_tokens;
+                            }
+                        }
+                    }
+                }).style("opacity", 0).transition().duration(1000).style("opacity", 1);
+
+            node.transition().duration(1000).style("opacity", function(d){
+                for (var key in id_tokens) {
+                    if (id_tokens.hasOwnProperty(key)) {
+                        if(d.name == key){
+                            return "1";
+                        }
+                    }
+                }
+                return "0.1";               
+            });
+
+            var link = svg.selectAll(".link");
+            link.transition().duration(1000).style("opacity", "0.1");     
+        }
+
+
+        // recovery highlighting nodes of similar tokens
+        function recovery() {
+            // scale edge-width for opacity
+            var maxScaleWidth = 1.0;
+            var minScaleWidth = 0.5;
+            var maxWidth = 1.0;
+            var minWidth = 0.0;
+            var width_scale = d3.scale.linear().range([minScaleWidth,maxScaleWidth]).domain([minWidth,maxWidth]);
+
+            var node = svg.selectAll(".node");
+            node.transition().duration(1000).style("opacity", "1");
+
+            var link = svg.selectAll(".link");
+            link.transition().duration(1000).style("opacity", function(d){
+                if(d.value == 1){
+                  //return '0.8';
+                  return (width_scale(d.width)).toString();
+                }
+                else if(d.value == 0){
+                  //return '0.6';
+                  return (width_scale(d.width)).toString();
+                }                
+            })
+
+            node.select("#temp_tip")
+            .style("opacity", 1).transition().duration(1000).style("opacity", 0).remove();   
+        }
+
+      </script>   
+    </div>
+
+    <div id="middle_line" style="width:1px; height:700px;">
+    </div>
+
+    <div id="display_right" style="width:599px; height:700px; border:0px #cccccc;">
+      <div id="display2" style="width:599px; height:160px; background: rgba(43, 63, 51, 0.75); ">
+        <info1></info1><br>
+        <info2></info2>
+        <info3></info3><br>
+        <info4></info4><br>
+        <info5></info5><br>
+        <info6></info6>
+        
+        <script>
+          var info = ["{{ info0 }}", "{{ info1 }}", "{{ info2 }}", "{{ info3 }}", "{{ info4 }}", "{{ info5 }}"];
+
+          $('#display2 info1').hide().text(info[0]).fadeTo(500, 1);
+          $('#display2 info2').hide().text(info[1]).fadeTo(500, 1);
+          $('#display2 info3').hide().text(info[2]).fadeTo(500, 1);
+          $('#display2 info4').hide().text(info[3]).fadeTo(500, 1);
+          $('#display2 info5').hide().text(info[4]).fadeTo(500, 1);
+          $('#display2 info6').hide().text(info[5]).fadeTo(500, 1);
+        </script>
+
+        <script>
+          function id_info(ID, info){
+            $('#display2').html('<info1></info1><br><info2></info2><info3></info3><br><info4></info4><br><info5></info5><br><info6></info6>');
+
+            $('#display2 info1').hide().text(info[0]).fadeTo(500, 1);
+            $('#display2 info2').hide().text(info[1]).fadeTo(500, 1);
+            $('#display2 info3').hide().text(info[2]).fadeTo(500, 1);
+            $('#display2 info4').hide().text(info[3]).fadeTo(500, 1);
+            $('#display2 info5').hide().text(info[4]).fadeTo(500, 1);
+            $('#display2 info6').hide().text(info[5]).fadeTo(500, 1);
+          }
+        </script>
+      </div>
+      
+      <div id="display3" style="width:599px; height:540px; border:0px #cccccc outset; background: rgba(43, 43, 43, 0.8);">
+        <script>
+        redraw();
+
+        function link_info(source, target, source_target_data){
+            $('#display2').animate({
+              height: 350
+            }, 700, function() {
+              // Animation complete.
+            }); 
+            $('#display3').animate({
+              height: 350
+            }, 700, function() {
+              // Animation complete.
+            });
+
+
+            var x = document.getElementById('display2');
+            x.innerHTML = "";
+            x.innerHTML = "<div id=\"link_info_div1\"><link_info1></link_info1></div><br><div id=\"link_info_div2\"><link_info2></link_info2></div>";
+            
+            var x = document.getElementById('display3');
+            x.innerHTML = "";
+            x.innerHTML = "<div id=\"link_info_div3\"><link_info3></link_info3></div><br><div id=\"link_info_div4\"><link_info4></link_info4></div>";            
+
+            source_posts = source_target_data[source];
+            target_posts = source_target_data[target];
+
+            var Length = source_posts.length;
+            var source_posts_info = "";
+            if(Length > 0){
+              for (var i=0; i<Length; i++){
+                source_posts_info = source_posts_info + ("&nbsp;&nbsp;&nbsp;<a href=\"" + source_posts[i]['url'] + "\" target=\"_blank\" title=\"" + source_posts[i]['title'] + "\" style=\"color:#F8F8FF;\">" + source_posts[i]['title'] + "</a><br>");
+
+                var comment_Length = source_posts[i]['comment'].length;
+                target_comments = source_posts[i]['comment'];
+                
+                if(comment_Length > 0){
+                  for (var j=0; j<comment_Length; j++){
+                    if(target_comments[j]['score'] == 1){
+                      source_posts_info = source_posts_info + ("&nbsp;&nbsp;&nbsp;<font color='#FFB6C1'>" + "➥ " + target + "</font><font color='#66DD00'> 推</font><font color='#FFAA33'>" + target_comments[j]['content'] + "</font><br>");                   
+                    }
+                    else if(target_comments[j]['score'] == 0){
+                      source_posts_info = source_posts_info + ("&nbsp;&nbsp;&nbsp;<font color='#FFB6C1'>" + "➥ " + target + "</font><font color='#DDDDDD'> 回</font><font color='#FFAA33'>" + target_comments[j]['content'] + "</font><br>");                   
+                    }
+                    else if(target_comments[j]['score'] == -1){
+                      source_posts_info = source_posts_info + ("&nbsp;&nbsp;&nbsp;<font color='#FFB6C1'>" + "➥ " + target + "</font><font color='#FF3333'> 噓</font><font color='#FFAA33'>" + target_comments[j]['content'] + "</font><br>");                   
+                    }                  
+                  }
+
+                  source_posts_info = source_posts_info + "<hr>";                  
+                }
+                else{
+                  source_posts_info = source_posts_info + "<hr>";
+                }
+
+                
+              }              
+            }
+            else{
+              source_posts_info = source_posts_info + "&nbsp;&nbsp;&nbsp;查無 " + source + " 發表的貼文";
+            }
+
+            var Length = target_posts.length;
+            var target_posts_info = "";
+            if(Length > 0){
+              for (var i=0; i<Length; i++){
+                target_posts_info = target_posts_info + ("&nbsp;&nbsp;&nbsp;<a href=\"" + target_posts[i]['url'] + "\" target=\"_blank\" title=\"" + target_posts[i]['title'] + "\" style=\"color:#F8F8FF;\">" + target_posts[i]['title'] + "</a><br>");
+
+                var comment_Length = target_posts[i]['comment'].length;
+                source_comments = target_posts[i]['comment'];
+                
+                if(comment_Length > 0){
+                  for (var j=0; j<comment_Length; j++){
+                    if(source_comments[j]['score'] == 1){
+                      target_posts_info = target_posts_info + ("&nbsp;&nbsp;&nbsp;<font color='#FFB6C1'>" + "   ➥ " + source + "</font><font color='#66DD00'> 推</font><font color='#FFAA33'>" + source_comments[j]['content'] + "</font><br>");                   
+                    }
+                    else if(source_comments[j]['score'] == 0){
+                      target_posts_info = target_posts_info + ("&nbsp;&nbsp;&nbsp;<font color='#FFB6C1'>" + "➥ " + source + "</font><font color='#DDDDDD'> 回</font><font color='#FFAA33'>" + source_comments[j]['content'] + "</font><br>");                   
+                    }
+                    else if(source_comments[j]['score'] == -1){
+                      target_posts_info = target_posts_info + ("&nbsp;&nbsp;&nbsp;<font color='#FFB6C1'>" + "➥ " + source + "</font><font color='#FF3333'> 噓</font><font color='#FFAA33'>" + source_comments[j]['content'] + "</font><br>");                   
+                    }                  
+                  }
+
+                  target_posts_info = target_posts_info + "<hr align=\"left\">";                  
+                }
+                else{
+                  target_posts_info = target_posts_info + "<hr align=\"left\">"; 
+                }               
+              }              
+            }
+            else{
+              target_posts_info = target_posts_info + "&nbsp;&nbsp;&nbsp;查無 " + target + " 發表的貼文";
+            }
+
+
+            $('#display3 link_info3').hide().html("<font color='#FFB6C1' size='10'>" + source + "</font>" + " &nbsp;發表的貼文").fadeTo(500, 1);
+            $('#display3 link_info4').hide().html(source_posts_info).fadeTo(500, 1);
+            $('#display2 link_info1').hide().html("<font color='#FFB6C1' size='10'>" + target + "</font>" + " &nbsp;發表的貼文").fadeTo(500, 1);
+            $('#display2 link_info2').hide().html(target_posts_info).fadeTo(500, 1);
+        }
+
+        function update(){
+            var x = document.getElementById('display3');
+            x.innerHTML = "";
+
+            redraw();      
+        }
+
+        function redraw(){       
+            $('#display2').animate({
+              height: 160
+            }, 700, function() {
+              // Animation complete.
+            }); 
+            $('#display3').animate({
+              height: 540
+            }, 700, function() {
+              // Animation complete.
+            });
+
+            var width = 595,
+                height = 535,
+                padding = 1.5, // separation between same-color nodes
+                clusterPadding = 6, // separation between different-color nodes
+                maxRadius = 12,
+                radius = 1;
+
+            var color = d3.scale.ordinal()
+                  .range(["#77b2a0", "#ad697a"]);
+
+            var margin = {top: -5, right: -5, bottom: -5, left: -5};
+            {% load static %}
+            d3.text("{% static "word_freq/word_freq.csv" %}", function(error, text) {
+              if (error) throw error;
+              var colNames = "text,size,group\n" + text;
+              var data = d3.csv.parse(colNames);
+
+              data.forEach(function(d) {
+                d.size = +d.size;
+              });
+
+
+            //unique cluster/group id's
+            var cs = [];
+            data.forEach(function(d){
+                    if(!cs.contains(d.group)) {
+                        cs.push(d.group);
+                    }
+            });
+
+            var n = data.length, // total number of nodes
+                m = cs.length; // number of distinct clusters
+
+            //create clusters and nodes
+            var clusters = new Array(m);
+            var nodes = [];
+            for (var i = 0; i<n; i++){
+                nodes.push(create_nodes(data,i));
+            }
+
+            var force2 = d3.layout.force()
+                .nodes(nodes)
+                .size([width, height])
+                .gravity(.02)
+                .charge(-0.1)
+                .on("tick", tick)
+                .start();
+
+            var svg2 = d3.select("#display3").append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .call(d3.behavior.zoom().scaleExtent([0.8, 5]).on("zoom", function () {
+                  svg2.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
+                }))
+                .on("mouseover", function(d){
+                  d3.select(this).style("cursor", "pointer");                 
+                })
+                .on("mouseout", function(d){ 
+                  d3.select(this).style("cursor", "default");
+                })
+                .on('dblclick.zoom', null)
+                .on('click', function(d){
+                  d3.selectAll("circle")
+                    .transition()
+                    .duration(300)
+                    .style("fill", function(d){
+                        return "#77b2a0";
+                  });
+                  recovery();
+                })
+                .attr("transform", "translate(" + margin.left + "," + margin.right + ")")
+                .append("g");       
+          
+
+            var node = svg2.selectAll("circle")       
+                .data(nodes)
+                .enter().append("g").call(force2.drag)
+                .on("mouseover", function(d){
+                  d3.select(this).transition().duration(300).style("fill", "#fb6060");
+                  d3.select(this).style("cursor", "pointer");
+                })
+                .on("mouseout", function(d){ 
+                  d3.select(this).transition().duration(300).style("fill", "black");
+                  d3.select(this).style("cursor", "default");
+                })
+                .on('click', function(d) {
+                  d3.event.stopPropagation();
+                  if (d3.event.defaultPrevented) {
+                    return;
+                  }
+                  var selected = d;                  
+                  d3.selectAll("circle").style("fill", function(d){
+                        if(selected == d){
+                            return "#FFCC22";
+                        }
+                        else{
+                            return "#77b2a0";
+                        }
+                    });                  
+                  HoldOn.open({
+                    theme:"sk-cube-grid"
+                  });
+
+                  $(document).ready(function() {
+                      $.ajax({
+                          method: 'POST',
+                          url: '/common_token/',
+                          data: {'token': String(d.text), 'id': String(query_id)},
+                          success: function (data) {
+                              id_tokens = JSON.parse(data);
+                              similar_token_nodes(id_tokens);
+                              HoldOn.close();
+                          },
+                          error: function (data) {
+                              alert("Something went wrong.");
+                              HoldOn.close();
+                          }
+                      });
+                  }); 
+                });
+
+            force2.drag()
+            .on('dragstart', function(d) {
+              d3.event.sourceEvent.stopPropagation();
+            });
+
+            node.append("circle").style('opacity', 0.3).style('opacity', 0.8).transition().duration(1200)
+                .style("fill", function (d) {
+                return color(d.cluster);
+                })
+                .attr("r", function(d){return d.radius})
+                
+
+            node.append("text").style('opacity', 1).transition().duration(1200)
+                  .attr("dy", ".3em")
+                  .style("text-anchor", "middle")
+                  .style("font-size", function(d) { return (Math.min(2 * d.radius, (2 * d.radius - 8) / this.getComputedTextLength() * 24))/3 + "px"; })
+                  .text(function(d) { return d.text.substring(0, d.radius / 3); });
+
+
+
+
+            function create_nodes(data,node_counter) {
+              var minRadius = 20;
+              var maxRadius = 90;
+              var maxNodeFreq = data[0].size;
+              var minNodeFreq = data[data.length-1].size;
+              var scale = d3.scale.linear().range([minRadius,maxRadius]).domain([minNodeFreq,maxNodeFreq]);
+
+              var i = cs.indexOf(data[node_counter].group),
+                  d = {
+                    cluster: i,
+                    radius: scale(data[node_counter].size),
+                    text: data[node_counter].text,
+                    x: Math.cos(i / m * 2 * Math.PI) * 200 + width / 2 + Math.random(),
+                    y: Math.sin(i / m * 2 * Math.PI) * 200 + height / 2 + Math.random()
+                  };
+              if (!clusters[i]) clusters[i] = d;
+              return d;
+            };
+
+
+
+            function tick(e) {
+                node.each(cluster(10 * e.alpha * e.alpha))
+                    .each(collide(.5))
+                .attr("transform", function (d) {
+                    var k = "translate(" + Math.max(radius, Math.min(width - radius, d.x)) + "," + Math.max(radius, Math.min(height - radius, d.y)) + ")";
+                    return k;
+                });
+            }
+
+            // Move d to be adjacent to the cluster node.
+            function cluster(alpha) {
+                return function (d) {
+                    var cluster = clusters[d.cluster];
+                    if (cluster === d) return;
+                    var x = d.x - cluster.x,
+                        y = d.y - cluster.y,
+                        l = Math.sqrt(x * x + y * y),
+                        r = d.radius + cluster.radius;
+                    if (l != r) {
+                        l = (l - r) / l * alpha;
+                        d.x -= x *= l;
+                        d.y -= y *= l;
+                        cluster.x += x;
+                        cluster.y += y;
+                    }
+                };
+            }
+
+            
+            // Resolves collisions between d and all other circles.
+            function collide(alpha) {
+                var quadtree = d3.geom.quadtree(nodes);
+                return function (d) {
+                    var r = d.radius + maxRadius + Math.max(padding, clusterPadding),
+                        nx1 = d.x - r,
+                        nx2 = d.x + r,
+                        ny1 = d.y - r,
+                        ny2 = d.y + r;
+                    quadtree.visit(function (quad, x1, y1, x2, y2) {
+                        if (quad.point && (quad.point !== d)) {
+                            var x = d.x - quad.point.x,
+                                y = d.y - quad.point.y,
+                                l = Math.sqrt(x * x + y * y),
+                                r = d.radius + quad.point.radius + (d.cluster === quad.point.cluster ? padding : clusterPadding);
+                            if (l < r) {
+                                l = (l - r) / l * alpha;
+                                d.x -= x *= l;
+                                d.y -= y *= l;
+                                quad.point.x += x;
+                                quad.point.y += y;
+                            }
+                        }
+                        return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+                    });
+                };
+            }
+
+            });
+            
+
+            Array.prototype.contains = function(v) {
+                for(var i = 0; i < this.length; i++) {
+                    if(this[i] === v) return true;
+                }
+                return false;
+            };      
+        }
+
+        </script> 
+      </div>  
+    </div>
+
+    </div>
+</body>
+
+</html>

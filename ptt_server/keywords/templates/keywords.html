@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+{% load static %}
+
+<style>
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: inherit;
+}
+
+h1 {
+  font-size:150%;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+h2 {
+  font-size: 12px;
+  font-style: italic;
+  color: gray;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+#everything{
+  width:600px;
+  margin:20px;
+}
+.wrapper{
+  margin: 0px auto;
+  margin-left: 15px;
+  height: 0px;
+  width: 520px;
+  opacity: 0.8;
+  background: rgba(22, 25, 24, 0.8);
+}
+#chart{
+  width:680px;
+  height:500px;
+  padding: 40px 40px 40px 40px;
+  border-radius:10px 10px 10px 10px;
+  background: -webkit-linear-gradient(rgba(22, 25, 24, 0.7),rgba(78, 81, 80, 0.7));
+  background: -o-linear-gradient(rgba(22, 25, 24, 0.7),rgba(78, 81, 80, 0.7));
+  background: -moz-linear-gradient(rgba(22, 25, 24, 0.7),rgba(78, 81, 80, 0.7));
+  background: linear-gradient(rgba(22, 25, 24, 0.7),rgba(78, 81, 80, 0.7));
+  overflow-y:scroll;
+}
+#right_div{
+  float:left;
+  position: relative;
+  top:4px;
+  left: 210px;
+}
+.bar{
+  fill:#eaeaea;
+}
+text.label{
+  fill: #777777;
+  color: #777777;
+  font-size: 20px;
+  font-weight: bold;
+}
+text.category{
+  fill: #666666;
+  font-size: 14px;
+}
+
+
+.btn3d {
+    transition:all .08s linear;
+    position:relative;
+    outline:medium none;
+    -moz-outline-style:none;
+    border:0px;
+    margin-right:10px;
+    margin-top:15px;
+    left: 550px;
+    top: 60px;
+    z-index: 999;
+}
+.btn3d:focus {
+    outline:medium none;
+    -moz-outline-style:none;
+    left: 550px;
+    top: 60px;
+    z-index: 999;
+}
+.btn3d:active {
+    left: 550px;
+    top: 69px;    
+    z-index: 999;
+}
+ .btn-success {
+    box-shadow:0 0 0 1px #5cb85c inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4cae4c, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#5cb85c;
+    z-index: 999;
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1500px) {
+}
+
+@media only screen and (max-width : 1200px) {
+  .login {
+    width: 600px;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width : 1100px) {
+  .login {
+    margin-top: 2%;
+    width: 600px;
+    font-size: 1.7em;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .login {
+    margin-top: 1%;
+    width: 550px;
+    font-size: 1.7em;
+    min-height: 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .login {
+    margin-top: 0;
+    width: 500px;
+    font-size: 1.3em;
+    min-height: 0;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .login {
+
+    h2 {
+      margin-top: 0;
+    }
+
+    margin-top: 0;
+    width: 400px;
+    font-size: 1em;
+    min-height: 0;
+  }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+  .login {
+    margin-top: 0;
+    width: 200px;
+    font-size: 0.7em;
+    min-height: 0;
+  }
+}
+
+</style>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Keywords</title>
+    {% load static %}
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static "main/css/bootstrap.min.css" %}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{% static "main/css/half-slider.css" %}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <link href="{% static "date_slider/css/range-picker.css" %}" rel="stylesheet" type="text/css" />
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+       rel = "stylesheet">
+    <link href="{% static "HoldOn.js-master/src/css/HoldOn.min.css" %}" rel="stylesheet">
+
+
+    <style>
+      /* selectable */
+      #selectable-7 .ui-selecting { background: #707070 ; }
+      #selectable-7 .ui-selected { background: #f9dbdb; color: #bf7e7e; }
+      #selectable-7 { 
+        list-style-type: none;
+        margin: 20px 40px;
+        position: relative;
+        top: 128px;
+        left: 180px;
+        width: 15%;
+        float:left;
+      }
+      .ui-widget-content {
+        background: -webkit-radial-gradient(ellipse,rgba(186, 186, 186),rgba(78, 81, 80, 0.8));
+        background: -o-radial-gradient(ellipse,rgba(186, 186, 186),rgba(78, 81, 80, 0.8));
+        background: -moz-radial-gradient(ellipse,rgba(186, 186, 186),rgba(78, 81, 80, 0.8));
+        background: radial-gradient(ellipse,rgba(186, 186, 186),rgba(78, 81, 80, 0.8));
+        border: 10px outset rgba(252, 252, 252, 0.8);
+        font-size: 150%;
+        color: #4f4d4d;
+        text-align: center;
+      }
+      .resultarea {
+        background: #cedc98;
+        color: #333333;
+        font-size:14px;
+    </style>
+</head>
+
+<body style="background-color:#F0F0F0;">
+{% load static %}
+    <script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <script type='text/javascript' src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+    <script type='text/javascript' src="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"></script>
+    <script src="{% static "HoldOn.js-master/src/js/HoldOn.min.js" %}"></script> 
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">PTToniter</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/query">Query</a>
+                    </li>
+                    <li>
+                        <a href="/keywords">Keyword</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <script>
+       $(function() {
+          $( "#selectable-7" ).selectable({
+             selected: function() {
+                var result = $( "#result" ).empty();
+                $( ".ui-selected", this ).each(function() {
+                   var index = $( "#selectable-7 div" ).index( this );
+                   result.append( " #" + ( index + 1 ) );
+
+                   /* select json file */
+                   if(index + 1 == 1){ 
+                      bar_chart_data = "{% static "chart/MostUsedTokens.json" %}";
+                      redraw(settings);
+
+                   }
+                   if(index + 1 == 2){ 
+                      bar_chart_data = "{% static "chart/MostUsedTokens2.json" %}";
+                      redraw(settings);
+                   }
+                });
+             }
+          });
+       });
+    </script>
+
+
+    <!-- Page Content -->
+    {% load static %}
+    <br>
+    <div class="container" style="background-image:url({% static "image/background3.jpg" %}); width:1440px; height:820px;">
+        <br><br>               
+        <div id = "selectable-7">
+           <div class = "ui-widget-content">熱門關鍵字</div>
+           <div class = "ui-widget-content">Product 2</div>
+           <div class = "ui-widget-content">Product 3</div>
+           <div class = "ui-widget-content">Product 4</div>
+           <div class = "ui-widget-content">Product 5</div>
+           <div class = "ui-widget-content">Product 6</div>
+           <div class = "ui-widget-content">Product 7</div>
+
+           <span class = "resultarea">Selected Product</span>>
+           <span id = result class = "resultarea"></span> 
+        </div>
+        <div id = "right_div">
+          <button type="button" class="btn btn-success btn-lg btn3d" onclick="setDateInterval();"><span class="glyphicon glyphicon-ok"></span> Submit</button>
+          <div class="wrapper">
+              <div id="double_date_range" style="margin-top: 20px;"></div>
+          </div>
+          <br>
+          <script type='text/javascript' > 
+             var Global_startDate;
+             var Global_endDate;
+          </script>
+          <script>
+              function setDateInterval(){
+                  HoldOn.open({
+                    theme:"sk-cube-grid"
+                  });
+
+                  $(document).ready(function() {
+                      $.ajax({
+                          method: 'POST',
+                          url: '/setDateInterval/',
+                          data: {'startDate': String(Global_startDate), 'endDate': String(Global_endDate)},
+                          success: function (data) {
+                              if(data == 0){
+                                bar_chart_data = "{% static "chart/MostUsedTokens_interval.json" %}";
+                                redraw(settings);
+                                HoldOn.close();                               
+                              }
+                              else if(data == 1){
+                                bar_chart_data = "{% static "chart/MostUsedTokens.json" %}";
+                                redraw(settings);
+                                HoldOn.close();                               
+                              }
+                          },
+                          error: function (data) {
+                              alert("Something went wrong.");
+                              HoldOn.close();
+                          }
+                      });
+                  });                    
+              }
+          </script>
+          <div id="chart"></div>
+        </div>
+
+
+
+          <script>
+
+        //updatingBarChart.js
+
+        var setup = function(targetID){
+          //Set size of svg element and chart
+          var margin = {top: 0, right: 0, bottom: 0, left: 0},
+            width = 600 - margin.left - margin.right,
+            height = 2000 - margin.top - margin.bottom,
+            categoryIndent = 4*15 + 15,
+            defaultBarWidth = 20000;
+
+          //Set up scales
+          var x = d3.scale.linear()
+            .domain([0,defaultBarWidth])
+            .range([0,width]);
+          var y = d3.scale.ordinal()
+            .rangeRoundBands([0, height], 0.1, 0);
+
+          //Create SVG element
+          d3.select(targetID).selectAll("svg").remove()
+          var svg = d3.select(targetID).append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+          
+          //Package and export settings
+          var settings = {
+            margin:margin, width:width, height:height, categoryIndent:categoryIndent,
+            svg:svg, x:x, y:y
+          }
+          return settings;
+        }
+
+        var redrawChart = function(targetID, newdata) {
+
+          //Import settings
+          var margin=settings.margin, width=settings.width, height=settings.height, categoryIndent=settings.categoryIndent, 
+          svg=settings.svg, x=settings.x, y=settings.y;
+
+          //Reset domains
+          y.domain(newdata.sort(function(a,b){
+            return b.value - a.value;
+          })
+            .map(function(d) { return d.key; }));
+          var barmax = d3.max(newdata, function(e) {
+            return e.value;
+          });
+          x.domain([0,barmax]);
+
+          /////////
+          //ENTER//
+          /////////
+
+          //Bind new data to chart rows 
+
+          //Create chart row and move to below the bottom of the chart
+          var chartRow = svg.selectAll("g.chartRow")
+            .data(newdata, function(d){ return d.key});
+          var newRow = chartRow
+            .enter()
+            .append("g")
+            .attr("class", "chartRow")
+            .attr("transform", "translate(0," + height + margin.top + margin.bottom + ")");
+
+          //Add rectangles
+          newRow.insert("rect")
+            .attr("class","bar")
+            .attr("x", 60)
+            .attr("opacity",0)
+            .attr("height", y.rangeBand())
+            .attr("width", function(d) { return x(d.value);}) 
+
+          //Add value labels
+          newRow.append("text")
+            .attr("class","label")
+            .attr("y", y.rangeBand()/2)
+            .attr("x",60)
+            .attr("opacity",0)
+            .attr("dy",".35em")
+            .attr("dx","0.5em")
+            .text(function(d){return d.value;}); 
+          
+          //Add Headlines
+          newRow.append("text")
+            .attr("class","category")
+            .attr("text-overflow","ellipsis")
+            .attr("y", y.rangeBand()/2)
+            .attr("x",0)
+            .attr("opacity",0)
+            .style("fill", "#F5F5F5")
+            .attr("dy",".35em")
+            .attr("dx","0.5em")
+            .text(function(d){return d.key});
+
+
+          //////////
+          //UPDATE//
+          //////////
+          
+          //Update bar widths
+          chartRow.select(".bar").transition()
+            .duration(300)
+            .attr("width", function(d) { return x(d.value);})
+            .attr("opacity",1);
+
+          
+          //Update data labels
+          chartRow.select(".label").transition()
+            .duration(300)
+            .attr("opacity",1)
+            .tween("text", function(d) { 
+            var i = d3.interpolate(+this.textContent.replace(/\,/g,''), +d.value);
+            return function(t) {
+              this.textContent = Math.round(i(t));
+            };
+            });
+          
+
+          //Fade in categories
+          chartRow.select(".category").transition()
+            .duration(300)
+            .attr("opacity",1);
+
+
+          ////////
+          //EXIT//
+          ////////
+
+          //Fade out and remove exit elements
+          chartRow.exit().transition()
+            .style("opacity","0")
+            .attr("transform", "translate(0," + (height + margin.top + margin.bottom) + ")")
+            .remove();
+
+
+          ////////////////
+          //REORDER ROWS//
+          ////////////////
+
+          var delay = function(d, i) { return 200 + i * 30; };
+
+          chartRow.transition()
+            .delay(delay)
+            .duration(900)
+            .attr("transform", function(d){ return "translate(0," + y(d.key) + ")"; });
+        };
+
+
+        {% load static %}
+        //Pulls data
+        //Since our data is fake, adds some random changes to simulate a data stream.
+        //Uses a callback because d3.json loading is asynchronous
+        var bar_chart_data = "{% static "chart/MostUsedTokens.json" %}";
+        var pullData = function(settings,callback){
+          d3.json(bar_chart_data, function (err, data){
+            if (err) return console.warn(err);
+          
+            var newData = data;
+            data.forEach(function(d,i){
+              var newValue = d.value
+              newData[i].value = newValue
+            })
+
+            newData = formatData(newData);
+            
+            callback(settings,newData);
+          })
+        }
+
+        //Sort data in descending order and take the top 10 values
+        var formatData = function(data){
+            return data.sort(function (a, b) {
+                return b.value - a.value;
+              })
+            .slice(0, 50);
+        }
+
+        //I like to call it what it does
+        var redraw = function(settings){
+          pullData(settings,redrawChart)
+        }
+
+        //setup (includes first draw)
+        var settings = setup('#chart');        
+        redraw(settings);
+
+        /*
+        //Repeat every 30 seconds
+        setInterval(function(){
+          redraw(settings)
+        }, 30000);
+        */
+
+          </script>
+    </div>
+
+    <script>
+      ;(function(factory) {
+          "use strict";
+
+          if (typeof define === "function" && define.amd) {
+              // amd
+              define(["jquery"], factory);
+          } else {
+              factory(jQuery);
+          }
+      }(function($) {
+          "use strict";
+
+          var STR_REPLACE_REG = /<%=\s*(\w+)\s*%>/g;
+
+          function isUndefined(target) {
+              return typeof target === "undefined";
+          }
+
+          function replace(str, value) {
+              return str.replace(STR_REPLACE_REG, function(match, key) {
+                  return value[key];
+              });
+          }
+
+          function RangePicker(container, options) {
+              if (isUndefined(options.startValue) || isUndefined(options.endValue)) {
+                  throw new Error("startValue and endValue is need");
+              }
+
+              if(isUndefined(options.translateSelectLabel)) {
+                  throw new Error(" RangePicker: translateSelectLabel is need");
+              }
+              this.__init(container, options);
+          }
+
+          RangePicker.prototype = {
+              constructor: RangePicker,
+              __defaultOptions: {
+                  type: "single"
+              },
+              __template: "<div class='range-picker-wrapper'>" +
+                            "<div class='range-picker'>" +
+                              "<span class='not-select-process'></span>" +
+                              "<span class='label range-label'><%= startValue %></span>" +
+                              "<span class='label range-label end-label'><%= endValue %></span>" +
+                            "</div>" +
+                          "</div>",
+              __init: function(container, options) {
+                  this.__options = $.extend({}, this.__defaultOptions, options);
+                  this.__$containerElement = container;
+                  this.__render();
+                  this.__$rangepickerElement = this.__$containerElement.find(".range-picker");
+                  this.__addWidget();
+                  this.__setContainerToWrapperWidget();
+                  this.__setCursorInitialPosition();
+                  this.__updateProcessBarView();
+              },
+
+              __render: function() {
+                  var templateValue = {
+                      startValue: this.__options.startValue,
+                      endValue: this.__options.endValue
+                  },
+                  viewStr = replace(this.__template, templateValue);
+                  this.__$containerElement.html(viewStr);
+              },
+
+              __addWidget: function() {
+                  var positionChangeCallback = $.proxy(this.__handleLabelPositionChange, this);
+
+                  this.__selectCursors = [];
+                  this.__selectCursors.push(new Cursor({positionChange: positionChangeCallback}));
+                  // 如果类型是 double 则添加两个游标
+                  if (this.__options.type === "double") {
+                      this.__selectCursors.push(new Cursor({ positionChange: positionChangeCallback}));
+                  }
+                  this.__processBar = new ProcessBar();
+
+                  this.__$rangepickerElement.append(this.__processBar.getJQueryElement());
+                  for(var i = 0; i < this.__selectCursors.length; i++) {
+                      this.__$rangepickerElement.append(this.__selectCursors[i].getJQueryElement());
+                  }
+                  this.__setWidgetInitialValue();
+              },
+
+              __setWidgetInitialValue: function() {
+                  var totalWidth = this.__$rangepickerElement.width();
+                  // 游标位置需要偏移半个游标的宽度, 所以先设置游标的文本,才能计算游标的位置
+                  this.__selectCursors[0].render(
+                      this.__options.translateSelectLabel(totalWidth, totalWidth)
+                  );
+
+                  if (!isUndefined(this.__selectCursors[1])) {
+                      var cursor = this.__selectCursors[1];
+                      cursor.render(this.__options.translateSelectLabel(0, totalWidth));
+                  }
+              },
+
+              __setCursorInitialPosition: function() {
+                  var totalWidth = this.__$rangepickerElement.width(),
+                      cursors = this.__selectCursors;
+
+                  cursors[0].updateArrowPosition(totalWidth);
+                  cursors[0].setTotalWidth(totalWidth);
+                  if (!isUndefined(cursors[1])) {
+                      cursors[1].updateArrowPosition(0);
+                      cursors[1].setTotalWidth(totalWidth);
+                  }
+              },
+
+              __setContainerToWrapperWidget: function() {
+                  // 添加容器的 paddint-top 以包含游标
+                  var wrapperElement = this.__$containerElement.find(".range-picker-wrapper"),
+                      cursors = this.__selectCursors,
+                      totalWidth = this.__$rangepickerElement.width(),
+                      cursorHeight = -(cursors[0].getJQueryElement().position().top);
+
+                  if (!isUndefined(cursors[1]) &&
+                      -(cursors[1].getJQueryElement().position().top) > cursorHeight) {
+                      cursorHeight = -(cursors[1].getJQueryElement().position().top);
+                  }
+                  wrapperElement.css("paddingTop", cursorHeight + "px");
+
+                  // 增加 padding-left 和 padding-right 以包含绝对定位后的游标
+                  var endCursorElement = cursors[0].getJQueryElement(),
+                      paddingRight = endCursorElement.outerWidth() / 2,
+                      paddingLeft = null;
+                  cursors[0].render(this.__options.translateSelectLabel(0, totalWidth));
+                  paddingLeft = endCursorElement.outerWidth() / 2;
+                  // 恢复原来的值
+                  cursors[0].render(this.__options.translateSelectLabel(totalWidth, totalWidth));
+
+                  wrapperElement.css({
+                      paddingLeft: paddingLeft + "px",
+                      paddingRight: paddingRight + "px"
+                  });
+
+              },
+
+              __handleLabelPositionChange: function(position) {
+                  this.__updateView(position.left);
+              },
+
+              __updateView: function() {
+                  this.__updateCursorView();
+                  this.__updateProcessBarView();
+              },
+
+              __updateCursorView: function() {
+                  var i = 0,
+                      labelText = "",
+                      position = null;
+
+                  for(; i < this.__selectCursors.length; i++) {
+                      position = this.__selectCursors[i].getArrowPosition();
+                      labelText = this.__options.translateSelectLabel(position.left,
+                              this.__$rangepickerElement.width());
+                      this.__selectCursors[i].render(labelText);
+                  }
+
+              },
+
+              __updateProcessBarView: function() {
+                  var cursorPosition = this.__getCursorPosition(),
+                      processBarPosition = {
+                          left: cursorPosition.start,
+                          right: this.__$rangepickerElement.width() - cursorPosition.end
+                      };
+                  this.__processBar.updatePosition(processBarPosition);
+              },
+
+              __getCursorPosition: function() {
+                  var position = {
+                      start: 0,
+                      startLabel: ""
+                  },
+                  tmpPosition = this.__selectCursors[0].getArrowPosition();
+
+                  // 先将第一个游标设置为结束位置
+                  position.end = tmpPosition.left;
+                  position.endLabel = tmpPosition.positionLabel;
+
+                  if (!isUndefined(this.__selectCursors[1])) {
+                      tmpPosition = this.__selectCursors[1].getArrowPosition();
+                      // 当存在第二个光标时且第二个光标距离更远,将第二个光标设置为结束位置,否则第二个光标设置为起始位置
+                      if (tmpPosition.left > position.end) {
+                              position.start = position.end;
+                              position.startLabel = position.endLabel;
+                              position.end = tmpPosition.left;
+                              position.endLabel = tmpPosition.positionLabel;
+                      } else {
+                          position.start = tmpPosition.left;
+                          position.startLabel = tmpPosition.positionLabel;
+                      }
+                  }
+
+                  return position;
+              },
+
+              __formatPositionValue: function(value, cursorLeftPosition) {
+                  var totalWidth = this.__$rangepickerElement.width(),
+                      offset = 0;
+                  value = value.replace(/\s+/, "");
+
+                  if (value[value.length - 1] === "%") {
+                      offset = totalWidth * parseInt(value, 10) / 100;
+                  } else {
+                      offset = cursorLeftPosition + parseInt(value, 10);
+                  }
+
+                  return offset;
+              },
+
+              getSelectValue: function() {
+                  var position = this.__getCursorPosition();
+                  position.totalWidth = this.__$rangepickerElement.width();
+
+                  return position;
+              },
+
+              updatePosition: function(endValue, startValue) {
+                  var cursors = this.__selectCursors;
+                  cursors[0].updateArrowPosition(this.__formatPositionValue(endValue,
+                                                     cursors[0].getArrowPosition().left));
+                  if (!isUndefined(cursors[1]) && !isUndefined(startValue)) {
+                      cursors[1].updateArrowPosition(this.__formatPositionValue(startValue,
+                                                      cursors[1].getArrowPosition().left));
+                  }
+                  this.__updateView();
+              }
+          };
+
+          function Cursor(options) {
+              this.__init(options);
+          }
+
+          Cursor.prototype = {
+              constructor: Cursor,
+              __defaultOptions: {
+                  positionChange: $.loop
+              },
+              __template: "<span class='label select-label'></span>",
+
+              __init: function(options) {
+                  this.__options = $.extend({}, this.__defaultOptions, options);
+                  this.__$element = $(this.__template);
+                  this.__bindDragEventHandler();
+              },
+
+              __bindDragEventHandler: function() {
+                  var self = this;
+
+                  this.__$element.on("mousedown", function(event) {
+                      this.__rangepicker = {
+                          isMouseDown: true,
+                          mouseStartX: event.clientX,
+                          previousMoveDistance: 0
+                      };
+                      // 增加 z-index 的值,避免两个游标时被另一个游标遮挡
+                      $(this).css("zIndex", 1000);
+                  }).on("mouseup", function() {
+                      this.__rangepicker = null;
+                      $(this).css("zIndex", 1);
+                  }).on("mousemove", function(event) {
+                      if (this.__rangepicker && this.__rangepicker.isMouseDown) {
+                          self.__handleDragEvent(event.clientX, this.__rangepicker);
+                      }
+                  }).on("mouseout", function() {
+                      $(this).css("zIndex", 1);
+                      this.__rangepicker = null;
+                  });
+              },
+
+              __handleDragEvent: function(clientX, elementData) {
+                  var distance = clientX - elementData.mouseStartX - elementData.previousMoveDistance;
+                  elementData.previousMoveDistance = clientX - elementData.mouseStartX;
+                  var position = this.__calculatePosition(distance);
+                  this.updateArrowPosition(position);
+                  // 获取游标下面箭头的位置,并传递给回调函数
+                  this.__options.positionChange(this.getArrowPosition(), this.__$element);
+
+              },
+
+              __calculatePosition: function(offset) {
+                  var newPosition = this.__arrowPosition + offset;
+                  // 如果拖动后游标的位置超过了左右边界,则设置为左右边界的位置
+                  if (newPosition > this.__totalWidth) {
+                      newPosition = this.__totalWidth;
+                  } else if (newPosition < 0) {
+                      newPosition = 0;
+                  }
+
+                  return newPosition;
+              },
+
+              __updatePosition: function(position) {
+                  for(var key in position) {
+                      if (position.hasOwnProperty(key)) {
+                          this.__$element.css(key, position[key] + "px");
+                      }
+                  }
+              },
+
+              render: function(textValue) {
+                  this.__$element.text(textValue);
+              },
+
+              updateArrowPosition: function(position) {
+                  this.__arrowPosition = position;
+                  this.__updatePosition({
+                      left: position - this.__$element.outerWidth() / 2 // 游标的位置减去半个游标的宽度才是游标左边的位置
+                  });
+              },
+
+              getJQueryElement: function() {
+                  return this.__$element;
+              },
+
+              getArrowPosition: function() {
+                  return {
+                      left: this.__arrowPosition,
+                      positionLabel: this.__$element.text()
+                  };
+              },
+
+              setTotalWidth: function(totalWidth) {
+                  this.__totalWidth = totalWidth;
+              }
+          };
+
+          function ProcessBar(options) {
+              this.__init(options);
+          }
+
+          ProcessBar.prototype = {
+              constructor: ProcessBar,
+              __template: "<span class='process'></span>",
+              __init: function() {
+                  this.__$element = $(this.__template);
+              },
+
+              updatePosition: function(position) {
+                  for(var key in position) {
+                      if (position.hasOwnProperty(key)) {
+                          this.__$element.css(key, position[key] + "px");
+                      }
+                  }
+              },
+
+              getJQueryElement: function() {
+                  return this.__$element;
+              }
+          };
+
+          $.fn.rangepicker = function(options) {
+              return new RangePicker(this, options);
+          };
+      }));
+    </script>
+    <script>
+        ;(function() {
+            "use strict";
+
+            function dateFormat(date, fmt) {
+                var o = {
+                    "M+": date.getMonth() + 1,
+                    "d+": date.getDate(),
+                };
+                if (/(y+)/.test(fmt)){
+                    fmt = fmt.replace(RegExp.$1, (date.getFullYear() + "").substr(4 - RegExp.$1.length));
+                }
+                for (var k in o) {
+                    if (new RegExp("(" + k + ")").test(fmt)){
+                        fmt = fmt.replace(RegExp.$1, (RegExp.$1.length === 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+                    }
+                }
+                return fmt;
+            }
+
+            var startDate = new Date("2016/06/18"),
+                endDate = new Date("2016/11/17"),
+                offset = endDate - startDate;
+
+            var counter = 0;
+            var firstIn_flag = 1;
+            var counterForflag = 0;
+
+            window.hello = $("#double_date_range").rangepicker({
+                type: "double",
+                startValue: dateFormat(startDate, "yyyy/MM/dd"),
+                endValue: dateFormat(endDate, "yyyy/MM/dd"),
+                translateSelectLabel: function(currentPosition, totalPosition) {
+                    var timeOffset = offset * ( currentPosition / totalPosition);
+                    var date = new Date(+startDate + parseInt(timeOffset));
+
+                    counterForflag = counterForflag + 1;
+                    if(counterForflag <= 4 && firstIn_flag == 1){
+                        Global_endDate = dateFormat(endDate, "yyyy/MM/dd");
+                        Global_startDate = dateFormat(startDate, "yyyy/MM/dd"),
+
+                        firstIn_flag = 0;
+                    }
+                    else if(counterForflag > 4 && firstIn_flag == 0){
+                        counter = counter + 1;
+                        if(counter == 1){
+                            Global_endDate = dateFormat(date, "yyyy/MM/dd");
+                        }
+                        else if(counter == 2){
+                            Global_startDate = dateFormat(date, "yyyy/MM/dd");
+                            counter = 0;            
+                        }
+                    }
+
+                    return dateFormat(date, "yyyy/MM/dd");
+                }
+            });
+
+        }());
+    </script>
+</body>
+
+</html>
